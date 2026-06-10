@@ -1,0 +1,182 @@
+# ManagerGPT Onboarding — Detailed Flows
+
+The full runbook behind the slim SKILL.md orchestrator. Each section is the step-by-step for one phase, including the exact AskUserQuestion wordings, templates, and routing. The spine is **Hire → Onboard → Intake → Gossip → Test Drive → Familiar → Closer.** Always: one or two questions at a time, encourage dictation, confirm before each phase change, save as you go, keep the "onboarding a new colleague" metaphor alive.
+
+Platform note: where this says "Global Instructions," Cowork uses the Settings field and Codex uses `AGENTS.md`. Where it says "scheduled task," Cowork uses `create_scheduled_task` and Codex uses a Chat-created automation. Both platforms have **Projects** — the OS lives in one.
+
+---
+
+## Section 1: Entry-point routing
+
+### First-time users (no context files found)
+
+AskUserQuestion:
+```
+"What's your aim here today?"
+- Set up my whole Operating System (the full onboarding, ~30–45 min)
+- Get productive fast (Quickstart, ~15 min)
+- Help me with one specific thing
+```
+
+- **Full** → run Hire → Onboard → Intake → Gossip → Test Drive → Familiar → Closer.
+- **Quickstart** → Section 2.
+- **One thing** → free text; route to the relevant phase or just help.
+
+### Returning users (files/config exist)
+
+Open warmly and name what you can see ("You've already got your workspace, about-me, and a Weekly Preview scheduled"). AskUserQuestion:
+```
+"Welcome back. What do you want to do?"
+- Full refresh — re-interview and update everything
+- Update specific pieces (workspace, tools, context files, automations…)
+- Run the Test Drive again
+- Help with one specific thing
+```
+
+Always read existing files first and present current values as defaults to keep or change. Never overwrite silently.
+
+---
+
+## Section 2: Quickstart (~15 minutes)
+
+A stripped path to value. Skips Gossip, the calendar audit, and most of the Inner Game.
+
+1. **Minimal workspace.** Create `CONTEXT/` and `OUTPUTS/` only. Explain: "CONTEXT holds who you are; OUTPUTS is where I deliver work. We can expand later."
+2. **Three-question about-me** (AskUserQuestion, one at a time): what they do + the business; the tools they use daily; how they want the OS to work with them (ask first / just go on simple things / show a plan first).
+3. **Generate `about-me.md`** from the answers; present and offer to refine.
+4. **Where do tasks live?** Ask the task-management first question (Section 3.4). Connect or set up a `tasks.md`/`tasks.xlsx` so at least Plan My Day and Weekly Preview have somewhere to write.
+5. **Minimal Global Instructions** — who they are, how they work, output defaults, the hard delete rules, and "If I haven't selected a Project, suggest opening the OS Project." Walk through pasting it in.
+6. **Show what Full Setup adds** (Inner Game, team context, calendar audit, automations, Familiar) and invite them back anytime.
+
+---
+
+## Section 3: Phase 1 — HIRE
+
+Say the intro line: *"First, we set up where your Operating System lives (it's just a set of folders and files) and what tools it can access."*
+
+### 3.1 Pre-flight: capabilities check
+
+Guide the user to **Cowork → Settings → Capabilities** and confirm ON:
+- **Skills** (required) and **Code execution and file creation** (required) — the OS can't run without these.
+- **Artifacts** (recommended), **Inline visualizations** (optional).
+
+If a toggle is greyed out: *"If a toggle is greyed out and you're on a work account, your IT admin disabled it at the org level. Tell me which one is greyed out and I'll suggest next steps."* If Skills or Code execution is locked, be honest that the OS will be limited and help them identify who to ask. (Codex: skip — just confirm the workspace is writable.)
+
+### 3.2 Build the workspace
+
+1. Confirm a folder is selected (`request_cowork_directory` if not).
+2. Create `CONTEXT/`, `PROJECTS/`, `TEMPLATES/`, `OUTPUTS/` with `mkdir -p`. Leave PROJECTS and TEMPLATES empty.
+3. **Permission model** — AskUserQuestion, default to read/write-with-confirmation:
+```
+"How should I handle your workspace folders?"
+- Read/write with confirmation (Recommended) — I can update any folder but I show you the change and ask first. OUTPUTS is always writable.
+- Read-only source folders — I read CONTEXT/PROJECTS/TEMPLATES but never touch them; only OUTPUTS is writable.
+- Full read/write — I update files freely. For power users.
+```
+Store the choice — it drives the Folder Protocol in Global Instructions. See `workspace-guide.md`.
+
+### 3.3 Connect tools
+
+Ask what they use daily (multiSelect: Google Workspace, Slack, Notion, a task tool, other). For each, `search_mcp_registry` then `suggest_connectors`. Verify with a quick read. Connect before building context files so you can pull from real material. See `connectors-guide.md`.
+
+### 3.4 Calendar audit (if a calendar got connected)
+
+Offer it: *"Want me to take a quick look at your last few weeks in your calendar so your OS starts with a real picture of your time? I can audit it and see how you might be even more effective too."* If yes, read 3-4 weeks and surface, briefly:
+- Meeting load — hours and rough % of the week in meetings.
+- Recurring meetings that are candidates to batch, shorten, decline, or delegate.
+- How fragmented their maker time is.
+- Where realistic Deep Work windows fall.
+
+**Reflect the patterns back for confirmation** (a few observations + a question or two — not a lecture). Then feed the confirmed findings into the **Outer Game** section of `working-style.md`: likely Deep Work windows (the Weekly Preview uses these to block time) and a **starting estimate for the daily buffer**, which the buffer question (3.5) confirms.
+
+### 3.5 Task management (REQUIRED — connect, then configure)
+
+**First question:** *"Where do your tasks and to-dos live today?"* — Asana / Linear / Notion / Todoist / Airtable / Another tool / A spreadsheet or doc / I have something but don't love it and am interested in changing it / Nothing consistent — it's in my head. (More than a 4-button form holds, so present as a short list they click the closest match to or dictate; capture "Another tool" as free text.)
+
+Routing:
+- **A real tool they're happy with** → connect it, then **configure**: run a discovery query before interviewing —
+  - Asana → workspaces, projects, custom fields
+  - Linear → teams, projects, workflow states
+  - Notion → have them point you at the database, then read its properties
+  - Todoist → projects, labels
+  - Airtable → bases, tables, fields (ask which base/table holds tasks)
+  Then interview them on their conventions and write the **Task management block** (see `task-management-guide.md`) into the Outer Game of `working-style.md`, mapping their structure to the canonical labels: **Today, Later, Someday/Maybe, Waiting For, Done** (record whatever they actually use).
+- **A spreadsheet/doc, "don't love it," or nothing** → the **fallback**: offer **Flow State** (the ManagerGPT task app), or build a task file mirroring the Next Actions template (columns **By When, Action, Priority, Project, Notes, Time**; a **This Week's Priorities 1 / 2 / 3-stretch** block; the **Daily Defining + Weekly Preview checklists** at the bottom). If they choose the file, ask format: **`tasks.xlsx`** (closest to the Next Actions spreadsheet) or **`tasks.md`** (lighter, plain text). Create it in `PROJECTS/` and record the location + format in the Task management block.
+
+**Daily buffer (ask here, save here):** *"Based on what you know about your typical days, how much buffer time should you leave each day for fighting fires and responding to unplanned opportunities?"* If the calendar audit proposed an estimate, offer it as the starting point. Save the answer to the Outer Game of `working-style.md` — Plan My Day reads it.
+
+**Phase confirmation:** *"That's Hire — your workspace, connected tools (and a calendar read, if you connected one), and task management. Anything else before we give your OS its standing instructions?"*
+
+---
+
+## Section 4: Phase 2 — ONBOARD
+
+Say the intro line: *"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."*
+
+- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit). Name what they now have in one or two sentences.
+- Tell them their Global Instructions get written at the end of Intake, from what's learned — so they're personal, not boilerplate.
+
+---
+
+## Section 5: Phase 3 — INTAKE
+
+### 5.1 Import the Day-1 doc (check first, ask second)
+
+Ask: *"Do you have a Google doc from workshop #1? Drag the file you saved to your desktop, or share a link to it — I'll use what's there to start."* If shared, read it and pre-fill, so the interview becomes confirmation rather than blank-slate typing.
+
+### 5.1b Feed the Context Library (doc-first, optional)
+
+Invite their existing material across five layers — Company & strategy, Org principles & processes, Team, Personal, Initiatives — instead of interviewing every field: *"Share whatever you already have — drag in docs or point me at them, and we'll fill the rest over time. None of this is required."* Use AskUserQuestion (multiSelect) to pick the layers they have material for, read what they share, and extract into the right file: Company, Org + Team → `org-and-team-context.md`; Personal → `working-style.md` (Inner Game); Initiatives → a `PROJECTS/` subfolder. Reviews, 360s, scars, and leadership fears are **sensitive** — local only, flagged for the security review. See `context-files-guide.md`.
+
+### 5.2 Generate about-me.md, org-and-team-context.md, working-style.md (3 sections), brand-voice.md
+
+Run the interviews and build the files per `context-files-guide.md`. `working-style.md` always has **Outer Game**, **Inner Game**, and **Both — Habits & Rituals**. `org-and-team-context.md` where there's a company/org around them (skip if solo). `brand-voice.md` only if their role involves external content.
+
+### 5.3 The Gap Check (don't skip)
+
+Read the generated files back and ask: *"Here's what I think I know about you. What's wrong or missing?"* Let them correct before moving on. Full script in `context-files-guide.md`.
+
+### 5.4 Generate Global Instructions
+
+Distill the files into ~800 words and walk them through pasting into Settings → Cowork (Codex: `AGENTS.md`). Must include the line *"If I haven't selected a Project, suggest opening the OS Project,"* and the **hard delete rules** in both the Security Rules and the Folder Protocol. See `global-instructions-guide.md`.
+
+**Phase confirmation:** files saved, Global Instructions installed. Move to Gossip.
+
+---
+
+## Section 6: Phase 4 — GOSSIP
+
+- *"Who do you work with most? Direct reports, peers, your manager, key collaborators?"*
+- For each: *"What would your Operating System need to know to be helpful when this person comes up?"*
+- **Learn from real interactions (optional):** *"If you have transcripts from recent meetings (with speaker labels) or message threads with these people, you can upload them or paste them in — I'll pull out the patterns I'm noticing in how you work together."* Extract patterns (recurring dynamics, communication styles, friction points, what each person needs), **reflect them back for approval**, and only then fold the approved ones into `org-and-team-context.md` (and Inner/Outer Game if relevant).
+- Write `org-and-team-context.md`. **If they work solo, keep it minimal and say so.**
+
+---
+
+## Section 7: Test Drive
+
+Say the intro line: *"Pick something actually on your plate right now — something you'd normally tackle alone, without me."* Walk it end to end, saving to OUTPUTS/. Then frame the rhythm: *"This is the rhythm you'll use most days. I read your files first. I ask you the questions I need answered. You refine. Then I do the work."*
+
+---
+
+## Section 8: Familiar (offer this last; Mac only)
+
+Offer Familiar (looksfamiliar.org): local screen-watching, on-device OCR via Apple, nothing leaves the computer, auto-redacts secrets, 48-hour screenshot deletion. Frame it as the upgrade that lets the OS ground itself in what they actually did. If they install it, walk through install + authorization, write the flag `Familiar: installed and authorized for use by skills.` to `working-style.md`, and tell them the Weekly Preview, Plan My Day, Catching, and Coaching skills now call `/familiar` to pull real activity. **Skip entirely for Windows.** See `familiar-guide.md`.
+
+---
+
+## Section 9: Closer — turn on the automations (by default)
+
+Open: *"Welcome to your personalized AI operating system…"* Then set up the rituals **by default — don't ask whether, only when.** Each saves to the OS Project, notifies on each run, and is adjustable anytime. (Codex: create these as automations from Chat.)
+
+- **Weekly Preview.** Walk the **timing table** interactively and let them choose (default **Sunday 8 PM**); tell them to also block it as a recurring calendar event. A scheduled run **drafts and notifies** — it never runs the full interview unattended.
+- **Plan My Day.** Ask **when** (weekday mornings or evenings) and tie it to an existing habit.
+- **Monthly context check-in** — last Friday of the month; re-reads context files, asks what changed, and **re-runs the task-management discovery**.
+
+Then mention: *"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."* See `scheduled-tasks-guide.md` for the draft-and-notify prompt pattern, the timing table, and cron reference.
+
+---
+
+## Section 10: Completion
+
+Generate an `onboarding-checklist.md` in the OS Project showing what's set up (workspace, tools, task mapping, context files, Global Instructions, companion skills, automations, Familiar screen capture) and what's still available. Remind them: select the OS Project at the start of each session; add briefs to PROJECTS/ as they go; re-run this skill anytime to update any piece.

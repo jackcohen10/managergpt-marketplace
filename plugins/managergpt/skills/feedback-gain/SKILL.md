@@ -1,0 +1,77 @@
+---
+name: feedback-gain
+description: >
+  Helps the user prepare, refine, or practice feedback using the GAIN framework —
+  the ManagerGPT approach to feedback. Use when the user says "feedback," "I need to
+  give someone feedback," "help me prepare feedback," "practice a feedback
+  conversation," or describes wanting someone to change a pattern of behavior or
+  improve their work. Frames feedback around the GAIN (what to move toward) rather
+  than the PAIN (what to move away from), removes judgments in favor of observations
+  and feelings, surfaces the giver's own contribution, and lands on concrete Next
+  Actions. Runs in Claude Cowork and Codex.
+version: 0.1.0
+---
+
+# GAIN Feedback
+
+Great feedback follows **GAIN** — both a philosophy and an acronym. As philosophy: it's far more effective and inspiring to frame feedback around the experience or result you want to move *toward* (the **GAIN**) than what you want to move *away from* (the **PAIN**). As an acronym: **G**oal · **A**ctions · **I**mpacts · **N**ext actions. The deeper frame is **Author, not (Re-)Actor** — moving toward what you want to create, not just away from what you don't. Feedback is simply *visibility into the impacts of our actions.*
+
+This skill prepares, refines, or rehearses a real feedback conversation. Read the user's `working-style.md` **Inner Game** if available — especially what they want to embody. This is sensitive interpersonal work, and grounding it in who they're trying to be helps.
+
+## How great feedback works (the constraints)
+
+1. **Start from the Goal/GAIN** — point to the benefit or possibility the change will create (ideally something enticing to the *receiver*), not the list of fixes you want.
+2. **Acknowledge your own contribution** to the dynamic — name the actions you took and the impacts you suspect they had. No token "I probably could have…" — real reflection.
+3. **Replace judgments with observations + feelings.** Strip subjective adjectives/adverbs ("sloppy," "great," "all over the place") and translate them into what you actually saw or heard and the impact it had. Tie impacts back to the stated Goal.
+4. **Land on concrete Next Actions** — Who does What by When. Co-create them where you can.
+5. **It's a conversation, not a monologue.** Feedback is a game of catch: they have to *receive* it. Pause after each section and ask a question that invites their reflection and their feedback for you.
+
+If it helps, calibrate for whether it's a one-time occurrence or a repeated pattern, and offer alternatives for each.
+
+## Two ways to use this
+
+Ask which they want (or infer it):
+
+### "Help me prepare or refine feedback"
+
+**Read the charge before you build.** Knowing their emotional starting point is part of good prep — your quality of presence is part of GAIN's Inner Game. A light way in: *"Before we shape this, how are you feeling toward [person] right now?"* And as they answer the first question below, read the *heat* in it — contempt, absolutes ("they always…"), character labels, a can't-let-go quality, a long unresolved history. The topic being the other person isn't the signal (this method deliberately starts there); the **intensity** is.
+
+If it's hot, offer a detour before crafting anything — optional, their call:
+
+> "There's a lot of heat in how you're describing this, and understandably so. Sometimes it's worth getting clear inside first, so the feedback comes from what you actually want rather than the frustration.
+> Want to:
+> 1. Do that — spend a couple minutes working through the [emotion] to harness its intelligence (it often informs the *content* of the feedback), or
+> 2. Go straight into shaping the feedback now?"
+
+If they take option 1, hand to the `inner-dialogue` skill, then come back here. **Backstop:** even if they declined, if their "observations" keep coming out as judgments no matter how you redirect, or they genuinely can't find their own contribution at question 4, that's the emotion obstructing the work — pause and offer the detour then.
+
+Ask these four, **one at a time**, only moving on once each is answered well:
+1. **What do you wish the other person would do differently?**
+2. **If they made those changes, what benefits would that lead to** — for them, you, and anyone they care about? *(This becomes the Goal.)*
+3. **What have you observed them doing, and what impacts has that had** on you or others? *(Push observations, not judgments.)*
+4. **What have YOU done or failed to do that contributed to this dynamic?**
+
+Then craft the feedback in natural, human language, and — because it's a conversation — weave in questions, especially after each section. Output it broken into:
+- **Goal**
+- **My actions and impacts**
+- **Your actions and impacts**
+- **Next actions** (Who / What / By When)
+
+**Goal openers** (offer as models, adapt to their voice):
+- "I know how committed you are to X. I noticed a couple of things that could help you get even closer to that — open to hearing them?"
+- "I noticed [pattern]. First, I know I'm contributing to this and need to make some changes myself. Are you open to exploring what we can each do differently?"
+
+### "Help me practice / role-play"
+First ask: **"What's our relationship — what role are you, what role am I? How defensive vs. receptive should I be?"** Then role-play the receiver, matching that description, and offer GAIN-based coaching tips along the way (in a different voice from the role-play). After a tip, ask whether to continue or redo.
+
+## Dialogue questions by stage (pause and ask)
+
+Use a question or two after each GAIN section to keep it a dialogue, reveal what's landing, and surface your own blind spots:
+- **Goal:** "Before I share what's on my mind — what does success look like to you here?" · "What matters most to you in this situation that I might be missing?"
+- **Actions:** "I noticed X, and I might only be seeing part of it. What's your read on what happened?" · "When you did X, what were you trying to accomplish?"
+- **Impacts:** "How do you think this landed with the team?" · "Here's what I experienced when that happened — is that what you intended?"
+- **Next actions:** "If you could change one thing about how we're handling this, what would it be?" · "I have an idea that might help — open to hearing it and telling me honestly if it'd work?" · "Let me make sure I've got this: you'll do X by Y, I'll do Z — did I miss anything?"
+- **Throughout:** "I've said a lot — what's landing, and where am I off base?" · "I know I've contributed too. Where have you noticed me getting in the way?"
+
+## Stance
+Keep responses to feedback the user drafts short (1–2 sentences) explaining why it does or doesn't fit GAIN; when it doesn't, propose an aligned alternative. Watch for **faux feelings** (judgments dressed as feelings, like "I feel disrespected") and refocus on the concrete action and its impact. The goal isn't you delivering a verdict — it's the two of you building something, on the same team. For deeper relational nuance, pair with the `catching` skill (reflecting their feelings and cares); to coach them toward their own answers, pair with `coaching-grow`.

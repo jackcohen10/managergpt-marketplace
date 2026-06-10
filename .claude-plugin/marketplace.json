@@ -1,0 +1,19 @@
+{
+  "name": "managergpt-marketplace",
+  "owner": {
+    "name": "Jack Cohen",
+    "email": "jack@brainbasedworkplace.com"
+  },
+  "description": "The ManagerGPT marketplace — one-command install of the ManagerGPT Operating System for the cohort course.",
+  "plugins": [
+    {
+      "name": "managergpt",
+      "source": "./plugins/managergpt",
+      "description": "ManagerGPT Operating System: onboarding (Hire / Onboard / Intake / Gossip) plus planning and interpersonal skills (Weekly Preview, Plan My Day, Clean Handoffs, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit) and a security review.",
+      "author": {
+        "name": "Jack Cohen",
+        "email": "jack@brainbasedworkplace.com"
+      }
+    }
+  ]
+}
