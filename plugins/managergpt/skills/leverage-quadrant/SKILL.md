@@ -31,7 +31,7 @@ Read `about-me.md` and **`org-and-team-context.md`** (their goals, and the compa
 | | **High impact** | **Low impact** |
 |---|---|---|
 | **Uniquely yours** | **DO THIS** — your highest leverage. Protect Deep Work time for it. This is the 5x Lego tower. | **Be careful** — satisfying but not moving the needle. Time-box it; don't let it crowd out the top-left. |
-| **Others could do it** | **DELEGATE** — the biggest unlock. Hand off cleanly (use `clean-handoffs`). Develop the person while you free your time. | **Minimize / drop / automate** — batch it, decline it, or systematize it. |
+| **Others could do it** | **DELEGATE** — the biggest unlock. Hand off cleanly (use `delegate-with-clean-handoffs`). Develop the person while you free your time. | **Minimize / drop / automate** — batch it, decline it, or systematize it. |
 
 The point isn't to do more — it's to concentrate your time on the top-left and give away as much of the right column as you can. Surfacing one or two big things to delegate is usually the highest-value outcome of the exercise.
 
@@ -39,4 +39,4 @@ The point isn't to do more — it's to concentrate your time on the top-left and
 Show the quadrant filled in (offer a visual artifact if they'd like one, otherwise a simple table works). For everything in the **Delegate** box, offer to run a Clean Handoff right now. For the **Do** box, offer to block Deep Work time (or feed it into the next Weekly Preview) or ask if there are items here where they would prefer to hire someone and can use this as the start of a job description.
 
 ## Cross-skill note
-This is the same Impact-vs-Ease/Ability lens the Weekly Preview uses in its delegation step. Pair with `clean-handoffs` to actually hand off what you decide to give away.
+This is the same Impact-vs-Ease/Ability lens the Weekly Preview uses in its delegation step. Pair with `delegate-with-clean-handoffs` to actually hand off what you decide to give away.

@@ -56,7 +56,7 @@ Today's defined actions get tagged **Today**. Full label set (use the user's cus
 
 **Interactive (default).** The user triggered it — run the full flow below, one question at a time.
 
-**Scheduled / unattended.** Launched by a Cowork scheduled task or a Codex automation. Don't run the interview. Instead: read today's calendar, this week's priorities, open/overdue tasks, the daily buffer, and `/familiar` if set; **draft a starting point** (available time after meetings and buffer, a proposed short list of Today actions laddering up to the week's priorities, and a suggested first task); save it to the OS Project; and **notify the user** to finish it interactively. Never finalize or commit the day's plan unattended.
+**Scheduled / unattended.** Launched by a Cowork scheduled task or a Codex automation. Don't run the interview. Instead: read today's calendar, this week's priorities, open/overdue tasks, the daily buffer, and `/familiar` if set; **draft a starting point** (available time after meetings and buffer, a proposed short list of Today actions laddering up to the week's priorities, and a suggested first task); save it to the OS Project; and **notify the user in plain language** — something like: *"I drafted a starting plan for your day. Type **Plan my day** (or click the **Plan My Day** button below) to finish it together."* Don't tell them to "open a file in OUTPUTS/" — they won't know what that means. Never finalize or commit the day's plan unattended.
 
 ---
 

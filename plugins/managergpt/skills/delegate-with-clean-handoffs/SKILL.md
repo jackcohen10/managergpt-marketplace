@@ -1,5 +1,5 @@
 ---
-name: clean-handoffs
+name: delegate-with-clean-handoffs
 description: >
   Helps the user delegate cleanly using the 5 W's — the ManagerGPT Clean Handoff.
   Use when the user says "delegate," "hand this off," "clean handoff," "who should do

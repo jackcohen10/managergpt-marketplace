@@ -64,17 +64,13 @@ For Full Setup, open with this exactly:
 
 Intro line (say this): **"First, we set up where your Operating System lives (it's just a set of folders and files) and what tools it can access."**
 
-### Pre-flight: capabilities check (do this before anything else)
+### First — grab their Day 1 doc (if they have one)
 
-Guide the user to **Cowork → Settings → Capabilities** and confirm these are ON:
-- **Skills** — required.
-- **Code execution and file creation** — required.
-- **Artifacts** — recommended.
-- **Inline visualizations** — optional.
+Right away, ask: **"Do you have a doc from Workshop #1 — or any notes about your role, team, and goals? Drag it in or paste a link, and I'll use it to pre-fill the rest so you type less."** If they share one, **read it now** and carry what's in it through every phase (workspace, tools, task setup, and the context files in Intake). If they don't have one, that's fine — just continue. (This replaces re-asking for it in Intake.)
 
-If they can't toggle one: "If a toggle is greyed out and you're on a work account, your IT admin disabled it at the org level. Tell me which one is greyed out and I'll suggest next steps." (Skills and Code execution are the two that must be on for the OS to work — if either is locked, flag that the OS will be limited and help them figure out who to ask.)
+### Capabilities — do NOT open with a question about this
 
-(Codex: skip this — capabilities are not gated the same way. Confirm the workspace is writable.)
+Don't start with a capabilities quiz. It's confusing and it stalls people on step one. Just begin the setup. Under the hood the OS needs **Skills** and **Code execution and file creation** on (Settings → Capabilities) — but only raise it *reactively*: if something you try to do fails (you can't create a file, a skill won't run), *then* point them to Settings → Capabilities to flip it on. If a toggle is greyed out on a work account, their IT admin disabled it at the org level — help them figure out who to ask. (Codex: not gated this way — just confirm the workspace is writable.)
 
 ### Build the workspace
 
@@ -84,18 +80,26 @@ Create the folder structure inside the selected folder: `CONTEXT/`, `PROJECTS/`,
 
 Help connect the platforms they use daily — Google Drive, Gmail, Calendar, Slack, etc. — via `search_mcp_registry` and `suggest_connectors`. Connecting before building context files lets Claude pull from their real material. See `connectors-guide.md`.
 
-### Calendar audit (if Calendar is connected)
+### Calendar audit — don't block onboarding on it
 
-If they connected a calendar, offer a quick audit so the OS starts with a real picture of where their time goes. Read the last 2–3 weeks and surface the patterns: meeting load (hours and rough % of the week in meetings), recurring meetings that are candidates to batch, shorten, decline, or delegate, how fragmented their maker time is, and where their realistic Deep Work windows actually fall. **Reflect the patterns back for confirmation** — a few observations and a question or two, not a lecture — then feed the confirmed findings into the **Outer Game** section of `working-style.md`: their likely Deep Work windows (which the Weekly Preview uses when it blocks time) and a **starting estimate for the daily buffer**, which the buffer question below confirms. Skip the audit if no calendar is connected.
+A deep calendar read is useful but slow, so **never stall the flow waiting for it.** Two good options:
+- **Defer it (default).** Skip it here and let the **first Weekly Preview** do the calendar read — it already does. Just note to the user that their OS will look at their calendar the first time they plan.
+- **Run it quietly in the background** while they answer the next questions, and surface the findings later, when you generate `working-style.md` — not as a gate they wait on.
+
+If/when you do read 2–3 weeks of calendar, pull out meeting load, recurring meetings to batch/decline/delegate, how fragmented their maker time is, and likely Deep Work windows; feed the confirmed findings into the **Outer Game** of `working-style.md` (Deep Work windows + a starting estimate for the daily buffer). Skip entirely if no calendar is connected.
 
 ### Task management (REQUIRED — connect, then configure)
 
 This is the sub-step that makes the planning rituals work.
 
-**First question (to find out what they use):** **"Where do your tasks and to-dos live today?"** Options: *Asana, Linear, Notion, Todoist, Airtable, Another tool, A spreadsheet or doc, I have something but don't love it and am interested in changing it, Nothing consistent — it's in my head.* That's more choices than a single multiple-choice form holds (max 4 buttons + "Other"), so present it as a short list they can answer by clicking the closest match or just dictating. If they pick **Another tool**, capture which one as free text (the form's "Other" field or a one-line follow-up). Route on the answer:
+**First question (to find out what they use):** **"Where do your tasks and to-dos live today?"** — three clean options (plus the form's free-text "Other"):
+1. **In an app** like Asana / Notion / Linear / Jira / Airtable / etc.
+2. **A doc or spreadsheet**
+3. **Nothing consistent** — it's in my head / scattered
 
-- A real task tool they're happy with (Asana / Linear / Notion / Todoist / Airtable / another named tool) → **Connect + Configure** (steps 1–2 below).
-- **A spreadsheet or doc**, **I have something but don't love it…**, or **Nothing consistent** → the **fallback** below (Flow State or a task file).
+If they pick **In an app**, ask which one. Route on the answer:
+- **In an app** they're happy with → **Connect + Configure** (steps 1–2 below).
+- **A doc or spreadsheet** or **Nothing consistent** → the **fallback** below (Flow State or a task file).
 
 1. **Connect.** Find and connect their task tool (Asana, Linear, Notion, Todoist, etc.).
 2. **Configure — discover, then interview.** After it connects, run a **discovery query** to see how their tool is actually organized before asking anything:
@@ -133,9 +137,9 @@ Intro line (say this): **"Now we give your Operating System its standing instruc
 
 Generate the files that tell the OS who the user is and how they work.
 
-### Import Day 1 doc (check first, ask second)
+### Use the Day 1 doc (already imported in Hire)
 
-First check whether they already have a workshop doc to import. Ask: **"Do you have a Google doc from workshop #1? Drag the file you saved to your desktop, or share a link to it — I'll use what's there to start."** If they share one, read it and pre-fill from it so the interview becomes confirmation, not blank-slate typing.
+You asked for the Day-1 / Workshop #1 doc at the very start of Hire. If they shared one, pre-fill the files below from it so the interview is confirmation, not blank-slate typing. If they didn't have it then but mention it now, grab it here.
 
 ### Feed the Context Library (doc-first — optional, fill over time)
 
@@ -169,13 +173,25 @@ Identity, role, professional background, the businesses/projects they run, and t
 
 Read the generated files back and ask: **"Here's what I think I know about you. What's wrong or missing?"** Let them correct before moving on. This is the beat that makes the OS feel like it actually knows them.
 
+**How to show a file:** present it as a clean card/artifact they can open — say what it is in one line ("Here's your `working-style.md` — open it to review"). **Do not** preface it with "contents of the file below" or dump the raw text under that heading; it confuses people.
+
 ### brand-voice.md (conditional)
 
 Only generate this if their role involves producing external-facing content (writing, marketing, client work). If it doesn't, skip it and say so.
 
 ### Generate Global Instructions
 
-From everything learned, write the Global Instructions (~800 words, dense). Cover who they are, how they work, output defaults, voice (if brand-voice exists), key context, rules, **Security Rules**, **Folder Protocol**, and naming convention. Include this line: **"If I haven't selected a Project, suggest opening the OS Project."** Then walk them through pasting it into **Settings → Cowork → Global Instructions** (Codex: into **AGENTS.md**). See `global-instructions-guide.md`. The **hard rules** below must appear in both the Security Rules and the Folder Protocol.
+From everything learned, write the Global Instructions (~800 words, dense). Cover who they are, how they work, output defaults, voice (if brand-voice exists), key context, rules, **Security Rules**, **Folder Protocol**, and naming convention. Include this line: **"If I haven't selected a Project, suggest opening the OS Project."** The **hard rules** below must appear in both the Security Rules and the Folder Protocol. See `global-instructions-guide.md`.
+
+Then give them the paste steps **as a numbered list** (Cowork):
+1. **Copy the content** (press the Copy icon at the top, or select it all and ⌘C).
+2. **Open Settings** (shortcut: press ⌘ and , at the same time).
+3. Select **Cowork**.
+4. Select **Global Instructions**.
+5. Click **Edit**.
+6. **Paste and save.**
+
+(Codex: paste it into **AGENTS.md** in the workspace instead.)
 
 **Phase confirmation:** files saved, Global Instructions installed. Move to Gossip.
 

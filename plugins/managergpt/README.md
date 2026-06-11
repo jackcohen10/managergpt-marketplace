@@ -11,7 +11,7 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:onboarding` | Set up your Operating System (Hire → Onboard → Intake → Gossip → Test Drive → automations). |
 | `/managergpt:weekly-preview` | Close out the week and author the next one — defined outcomes, Deep Work, delegation. |
 | `/managergpt:plan-my-day` | Daily Defining — what today is for, after your buffer. |
-| `/managergpt:clean-handoffs` | Delegate with the 5 W's (Who / What / By When / Where / Why). |
+| `/managergpt:delegate-with-clean-handoffs` | Delegate with the 5 W's (Who / What / By When / Where / Why). |
 | `/managergpt:leverage-quadrant` | Your Genius work vs. what to delegate (Impact × ability of others). |
 | `/managergpt:inner-dialogue` | Move through a difficult emotion to the yearning underneath. |
 | `/managergpt:catching` | Reflect feelings and the cares at the core. |

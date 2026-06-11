@@ -57,7 +57,7 @@ Don't dead-end at relief. Close by **consolidating and handing them the path**:
 
 1. **Replay how they got here**, briefly, so they can see the route and reuse it: came home → into the body → parts aside → presence → the yearning → the forward move.
 2. **Land on one concrete experiment or commitment:** "What do you want to take away or commit to?"
-3. **Let it flow into whatever fits.** The forward move usually wants a next home — offer it: turn the experiment into a `tiny-habit`, put it into the next `weekly-preview`, shape a `clean-handoff`, or — if the yearning is about a relationship — carry it into `feedback-gain` so the feedback comes from the yearning, not the grievance.
+3. **Let it flow into whatever fits.** The forward move usually wants a next home — offer it: turn the experiment into a `tiny-habit`, put it into the next `weekly-preview`, shape a `delegate-with-clean-handoffs`, or — if the yearning is about a relationship — carry it into `feedback-gain` so the feedback comes from the yearning, not the grievance.
 
 ## When they resist (normal and welcome)
 

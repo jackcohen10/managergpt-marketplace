@@ -104,7 +104,17 @@ Either format uses the same structure: columns **By When, Action, Priority, Proj
 - First: the very first action (what/who am I avoiding?)
 ```
 
-For `tasks.xlsx`, build the same columns and blocks as sheets/sections (use the xlsx skill).
+### tasks.xlsx layout (use the xlsx skill — get the formatting right)
+
+Build the same content as the markdown skeleton, but **formatted so it's actually readable in a spreadsheet:**
+
+- **This Week's Priorities (the three priority rows):** **merge each priority's cells across the full table width** (e.g. merge `A:F` on each of those rows) so the priority reads as one wide line, not a value crammed in column A. If merging isn't feasible in your tooling, at minimum let the text **wrap / run on** so it's fully visible.
+- **By When column (column A):** format the whole column as **dates** (a real date number format), not plain text — so it sorts and reads as dates.
+- **Action column (column B):** make it **much wider** than the rest — it holds the longest text. Set the others (Priority, Project, Notes, Time) to sensible widths; turn on **wrap text** for Action and Notes.
+- Bold the header row (`By When | Action | Priority | Project | Notes | Time`) and freeze it.
+- Put the **Weekly Preview + Daily Defining checklists** below the table (a separate block of rows or a second sheet).
+
+The goal: someone opening `tasks.xlsx` sees their week's priorities at a glance and a clean, sortable Next Actions table — not a cramped grid.
 
 ---
 

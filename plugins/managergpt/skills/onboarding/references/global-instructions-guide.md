@@ -70,7 +70,14 @@ Full brand guides (→ brand-voice.md), detailed business descriptions (→ abou
 
 ## Set-up instructions to give the user
 
-**Cowork:** Settings → Cowork → Global Instructions → Edit → paste → Save. Loads every session, even before a folder is selected.
-**Codex:** paste into `AGENTS.md` in the workspace.
+Give these to the user **as a numbered list** (Cowork):
+1. **Copy the content** (press the Copy icon at the top, or select it all and ⌘C).
+2. **Open Settings** (shortcut: press ⌘ and , at the same time).
+3. Select **Cowork**.
+4. Select **Global Instructions**.
+5. Click **Edit**.
+6. **Paste and save.**
+
+It loads every session, even before a folder is selected. **Codex:** paste it into `AGENTS.md` in the workspace instead.
 
 Save a copy as `global-instructions.md` in `CONTEXT/` for reference.

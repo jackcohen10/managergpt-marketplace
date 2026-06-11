@@ -33,8 +33,9 @@ Prompt: Run the Weekly Preview skill in scheduled mode. Read my calendar (last w
 and the week ahead), my task source and weekly-review history (per working-style.md),
 and call /familiar if the flag is set. Draft a starting point — a short reflection
 summary and 2–3 candidate priorities with rough Next Actions — save it to the OS
-Project, and notify me to finish interactively. Do not run the full interview, change
-the calendar, or delete anything.
+Project, and notify me in plain language: "I drafted a starting point for your Weekly
+Preview — type Weekly Preview (or click the button below) to finish it together." Do
+not run the full interview, change the calendar, or delete anything.
 Schedule: Sunday 8 PM (0 20 * * 0)
 ```
 
@@ -45,7 +46,8 @@ Prompt: Run the Plan My Day skill in scheduled mode. Read today's calendar, this
 week's priorities, open/overdue tasks, the daily buffer (working-style.md), and
 /familiar if set. Draft available time after buffer, a short list of Today actions
 tied to the week's priorities, and a suggested first task. Save to the OS Project and
-notify me to finish interactively. Don't finalize or delete anything.
+notify me in plain language: "I drafted a starting plan for your day — type Plan my
+day (or click the button below) to finish it together." Don't finalize or delete anything.
 Schedule: weekday mornings (0 8 * * 1-5) — or the time they chose
 ```
 

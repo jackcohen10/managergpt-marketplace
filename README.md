@@ -9,7 +9,7 @@ One plugin, `managergpt`, containing:
 - **`onboarding`** — the front door. Personalizes the OS the way you'd onboard a new colleague: Hire → Onboard → Intake → Gossip, then a Test Drive and automatic setup of your rituals.
 - **`weekly-preview`** — the core weekly planning ritual (close out the week, choose defined outcomes, block Deep Work, delegate).
 - **`plan-my-day`** — Daily Defining: what today is really for, after your buffer.
-- **`clean-handoffs`** — delegate cleanly with the 5 W's.
+- **`delegate-with-clean-handoffs`** — delegate cleanly with the 5 W's.
 - **`leverage-quadrant`** — what's your Genius work vs. what to delegate.
 - **`inner-dialogue`** — Move through a difficult emotion to the yearning underneath.
 - **`catching`** — reflect feelings and the cares at the core.
@@ -48,7 +48,7 @@ managergpt-marketplace/
             ├── onboarding/        (SKILL.md + references/)
             ├── weekly-preview/
             ├── plan-my-day/
-            ├── clean-handoffs/
+            ├── delegate-with-clean-handoffs/
             ├── leverage-quadrant/
             ├── inner-dialogue/
             ├── catching/

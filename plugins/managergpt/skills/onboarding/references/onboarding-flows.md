@@ -54,13 +54,11 @@ A stripped path to value. Skips Gossip, the calendar audit, and most of the Inne
 
 Say the intro line: *"First, we set up where your Operating System lives (it's just a set of folders and files) and what tools it can access."*
 
-### 3.1 Pre-flight: capabilities check
+### 3.1 Capabilities — don't open with a question
 
-Guide the user to **Cowork → Settings → Capabilities** and confirm ON:
-- **Skills** (required) and **Code execution and file creation** (required) — the OS can't run without these.
-- **Artifacts** (recommended), **Inline visualizations** (optional).
+Don't start with a capabilities quiz; it's confusing and stalls people on step one. Just begin. The OS needs **Skills** and **Code execution and file creation** on (Settings → Capabilities), but raise it only **reactively** — if something fails (can't create a file, a skill won't run), point them to Settings → Capabilities then. If a toggle is greyed out on a work account, their IT admin disabled it at the org level — help them figure out who to ask. (Codex: not gated this way — confirm the workspace is writable.)
 
-If a toggle is greyed out: *"If a toggle is greyed out and you're on a work account, your IT admin disabled it at the org level. Tell me which one is greyed out and I'll suggest next steps."* If Skills or Code execution is locked, be honest that the OS will be limited and help them identify who to ask. (Codex: skip — just confirm the workspace is writable.)
+**First, grab their Day 1 doc:** right after the intro, ask *"Do you have a doc from Workshop #1 — or any notes about your role, team, and goals? Drag it in or paste a link and I'll use it to pre-fill the rest."* If they share one, read it now and carry it through every phase (this replaces re-asking in Intake).
 
 ### 3.2 Build the workspace
 
@@ -79,19 +77,13 @@ Store the choice — it drives the Folder Protocol in Global Instructions. See `
 
 Ask what they use daily (multiSelect: Google Workspace, Slack, Notion, a task tool, other). For each, `search_mcp_registry` then `suggest_connectors`. Verify with a quick read. Connect before building context files so you can pull from real material. See `connectors-guide.md`.
 
-### 3.4 Calendar audit (if a calendar got connected)
+### 3.4 Calendar audit — don't block on it
 
-Offer it: *"Want me to take a quick look at your last few weeks in your calendar so your OS starts with a real picture of your time? I can audit it and see how you might be even more effective too."* If yes, read 3-4 weeks and surface, briefly:
-- Meeting load — hours and rough % of the week in meetings.
-- Recurring meetings that are candidates to batch, shorten, decline, or delegate.
-- How fragmented their maker time is.
-- Where realistic Deep Work windows fall.
-
-**Reflect the patterns back for confirmation** (a few observations + a question or two — not a lecture). Then feed the confirmed findings into the **Outer Game** section of `working-style.md`: likely Deep Work windows (the Weekly Preview uses these to block time) and a **starting estimate for the daily buffer**, which the buffer question (3.5) confirms.
+A deep calendar read is slow, so **never stall the flow waiting for it.** Default: **defer it** — skip here and let the first **Weekly Preview** do the calendar read (it already does); just tell the user their OS will look at their calendar the first time they plan. Or run it quietly in the background while they answer the next questions and surface findings later (when generating `working-style.md`), not as a gate. If/when you do read 2–3 weeks, pull meeting load, recurring meetings to batch/decline/delegate, maker-time fragmentation, and likely Deep Work windows; feed the confirmed findings into the **Outer Game** of `working-style.md` (Deep Work windows + a starting daily-buffer estimate). Skip if no calendar is connected.
 
 ### 3.5 Task management (REQUIRED — connect, then configure)
 
-**First question:** *"Where do your tasks and to-dos live today?"* — Asana / Linear / Notion / Todoist / Airtable / Another tool / A spreadsheet or doc / I have something but don't love it and am interested in changing it / Nothing consistent — it's in my head. (More than a 4-button form holds, so present as a short list they click the closest match to or dictate; capture "Another tool" as free text.)
+**First question:** *"Where do your tasks and to-dos live today?"* — three clean options (plus free-text Other): **1. In an app** like Asana / Notion / Linear / Jira / Airtable / etc.; **2. A doc or spreadsheet**; **3. Nothing consistent** — it's in my head / scattered. If they pick "In an app," ask which one.
 
 Routing:
 - **A real tool they're happy with** → connect it, then **configure**: run a discovery query before interviewing —
@@ -120,9 +112,9 @@ Say the intro line: *"Now we give your Operating System its standing instruction
 
 ## Section 5: Phase 3 — INTAKE
 
-### 5.1 Import the Day-1 doc (check first, ask second)
+### 5.1 Use the Day-1 doc (already imported in Hire)
 
-Ask: *"Do you have a Google doc from workshop #1? Drag the file you saved to your desktop, or share a link to it — I'll use what's there to start."* If shared, read it and pre-fill, so the interview becomes confirmation rather than blank-slate typing.
+You asked for the Day-1 / Workshop #1 doc at the very start of Hire (3.1). If they shared one, pre-fill the context files from it so the interview is confirmation, not blank-slate typing. If they didn't have it then but mention it now, grab it here.
 
 ### 5.1b Feed the Context Library (doc-first, optional)
 
