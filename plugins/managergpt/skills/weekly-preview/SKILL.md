@@ -119,9 +119,9 @@ Then save the reflection record (see "Memory across weeks"). If they work in an 
 
 ### Step 1 — Priorities
 
-Ask: **"What are the 2–3 most important things for you to create or complete [the week ahead]? Consider: what would you feel PROUD of having done by Friday?"**
+Ask it as **one clean question, not a stack** — don't pile "what would you feel proud of?" and "is there a third?" on top all at once. Say: **"What are the two or three most important things for you to create or complete [the week ahead]? Complete the sentence: *I would feel proud of having…*"**
 
-As they answer, **write each priority to the task source immediately** (per the Task management block) — don't just hold it in conversation. Acknowledge each briefly, then ask for the next, up to three.
+As they answer, **write each priority to the task source immediately** (per the Task management block) — don't just hold it in conversation. Acknowledge each briefly. **If they give only two, ask one light follow-up** to check for a third — *"Is there a third, or do those two capture it?"* — and don't force a third if two is the honest answer.
 
 **Ladder to the North Star.** If `org-and-team-context.md` has a North Star or strategy, lightly pressure-test each priority against it: does this move the metric or strategic goal that actually matters, or is it just urgent-feeling busywork? Don't force every priority to be strategic — some weeks are maintenance — but when something important seems missing, or a "priority" doesn't ladder to anything that matters, name it: *"How does this connect to [North Star]?"* That's the difference between a productive week and an impactful one.
 
