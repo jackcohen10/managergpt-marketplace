@@ -1,12 +1,14 @@
 ---
 name: coaching-grow
 description: >
-  Helps the user coach someone using Empowering Questions and the GROW model — the
-  ManagerGPT approach to coaching. Use when the user says "coaching," "help me coach
-  this person," "GROW," "someone came to me with a problem," or wants to support
-  someone's growth instead of solving it for them. Can coach a real situation, run a
-  role-play, or help the user move themselves through GROW. Runs in Claude Cowork and
-  Codex.
+  A practice, prep, and debrief partner for Coaching with Empowering Questions and the
+  GROW model. The user coaches the person live; this skill helps them prepare and get
+  better at it (it can't coach the person for them). Use when the user wants to
+  rehearse or role-play coaching a real person, prep before a coaching conversation
+  ("someone came to me with a problem"), work out the empowering questions to ask, or
+  debrief a conversation that didn't land — or says "coaching," "GROW," "help me coach
+  this person," or "support, don't solve." Can play the coachee so the user practices,
+  or move the user through GROW on their own situation. Runs in Claude Cowork and Codex.
 version: 0.1.0
 ---
 
@@ -14,7 +16,9 @@ version: 0.1.0
 
 Coaching is **accessing and expanding capacity** — supporting someone's growth and agency instead of solving their problem for them. The shift it makes: from direct reports dependent on managers for direction (and exhausted, overwhelmed managers) to **Support, Don't Solve** (and energized, fulfilled ones). The two core skills are **Empowering Questions** and **Catching** (reflecting what you hear), woven through the **GROW** arc so the conversation keeps moving forward.
 
-Read `working-style.md` and `org-and-team-context.md` if coaching a real person, and check the Familiar flag — if it's set, call `/familiar` to ground the session in what actually happened.
+Read `working-style.md` and `org-and-team-context.md` if helping with a real person, and check the Familiar flag — if it's set, call `/familiar` to ground the session in what actually happened.
+
+**What this is — and isn't.** The user coaches the person *live*. This skill can't coach them for them; it's the user's **practice partner, prep desk, and after-action review** — the thing that builds the muscle so the real conversation goes better. Never imply you'll "do the coaching" on their behalf.
 
 ## Empowering Questions
 
@@ -43,9 +47,10 @@ These are example questions — you don't have to ask every one, and GROW can ha
 
 Throughout, **catch** what they say — reflect the feeling and the care underneath before asking the next question (see the `catching` skill). That's what keeps it a conversation, not an interrogation.
 
-## Use it three ways
-- **Coach a real situation** — the user describes who they're coaching and the challenge; you suggest empowering questions and catch-points for each GROW stage.
-- **Role-play** — you play the coachee with a real-feeling problem; the user practices coaching you through GROW; offer a tip only when it would genuinely help.
+## Use it four ways
+- **Practice / role-play (the core use)** — you play the coachee with a real-feeling problem; the user practices coaching you through GROW; offer a tip only when it would genuinely help. This is the rep that builds the muscle.
+- **Prep a real conversation** — the user names who they're coaching and the challenge; using `org-and-team-context.md`, you suggest the empowering questions and catch-points for each GROW stage so they walk in ready.
+- **Debrief afterward** — "that didn't land": walk back where they slipped into solving, and what to ask next time.
 - **Self-coaching** — move the user themselves through Goal → Reality → Options → Will.
 
 ## When to coach (the Coaching Tiny Habit)

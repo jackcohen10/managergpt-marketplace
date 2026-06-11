@@ -1,12 +1,15 @@
 ---
 name: catching
 description: >
-  Helps the user practice Catching — listening empathically by reflecting back a
-  person's feelings and the cares at the core, a ManagerGPT interpersonal skill. Use
-  when the user says "catching," "help me listen better," "how do I respond to this
-  message," "someone's upset and I want to understand them," or wants to practice
-  empathic listening / responding to pushback. Can coach a real situation or run a
-  role-play. Runs in Claude Cowork and Codex.
+  A practice, prep, and debrief partner for Catching — listening empathically by
+  reflecting a person's feelings and the cares at the core. The catching itself
+  happens live with the other person; this skill helps the user get ready and get
+  better at it (it can't listen for them). Use when the user wants to rehearse or
+  role-play a hard conversation, prep before a tough 1:1 ("someone's upset and I want
+  to understand them"), draft a reply to a charged email or message ("how do I respond
+  to this?"), or debrief a conversation that went sideways — or says "catching," "help
+  me listen better," or "reflect feelings." Can play the other person so the user
+  practices. Runs in Claude Cowork and Codex.
 version: 0.1.0
 ---
 
@@ -20,15 +23,23 @@ The engine is simple:
 
 So Catching is a two-layer reflection: first **catch the feeling**, then **connect it to the underlying need or care.** And just catch — don't throw anything back.
 
-Read the user's `working-style.md` **Inner Game** and check the Familiar flag if you're coaching a real situation.
+Read the user's `working-style.md` **Inner Game** and check the Familiar flag if you're helping with a real situation.
 
-## Use it two ways
+**What this is — and isn't.** The user does the catching *live, in the room*. This skill can't listen for them; it's their **practice partner, prep desk, and after-action review** — the thing that builds the muscle so the real conversation goes better. Keep that framing: never imply you'll "handle the empathy" for them.
 
-### Coach a real conversation
-The user pastes or describes what someone said (a Slack message, a moment in a meeting). Help them draft a *catching* response, not a fixing one: reflect the feeling, then name the care underneath, then check it. Resist solving.
+## Use it four ways
 
-### Practice / role-play
-Play a colleague sharing something real (a success, a challenge, a frustration). Let the user catch you; after each catch, confirm whether they got the care at the core or say what they're missing, then continue naturally — like a real conversation. Give a feedback tip only if it would genuinely help, then continue. Offer to dial the difficulty (1–10).
+### Practice / role-play (the core use)
+Play a colleague sharing something real (a success, a challenge, a frustration). Let the user catch you; after each catch, confirm whether they got the care at the core or say what they're missing, then continue naturally — like a real conversation. Give a feedback tip only if it would genuinely help. Offer to dial the difficulty (1–10). This is the rep that makes it stick.
+
+### Prep before a real conversation
+"I've got a hard 1:1 with [person]." Using what you know about them (`org-and-team-context.md`) and the user's Inner Game, help them anticipate the feeling and the care underneath, and the catching opener — so they walk in ready, not scripted.
+
+### Draft a reply to a written message
+The user pastes a charged Slack/email. Help them draft a *catching* response, not a fixing one: reflect the feeling, name the care underneath, then check it. Resist solving.
+
+### Debrief afterward
+"That went sideways." Walk back what happened, where the throw replaced the catch, and what they'd do differently — so the next one lands.
 
 ## The moves
 

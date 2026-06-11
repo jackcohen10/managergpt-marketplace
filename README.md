@@ -12,9 +12,9 @@ One plugin, `managergpt`, containing:
 - **`delegate-with-clean-handoffs`** — delegate cleanly with the 5 W's.
 - **`leverage-quadrant`** — what's your Genius work vs. what to delegate.
 - **`inner-dialogue`** — Move through a difficult emotion to the yearning underneath.
-- **`catching`** — reflect feelings and the cares at the core.
+- **`catching`** — rehearse, prep, and debrief empathic listening (Catching).
 - **`feedback-gain`** — prepare, refine, or practice feedback with GAIN.
-- **`coaching-grow`** — empowering questions + the GROW model.
+- **`coaching-grow`** — rehearse, prep, and debrief coaching (empowering questions + GROW).
 - **`meta-prompt`** — create and improve prompts.
 - **`tiny-habit`** — make a new behavior stick (BJ Fogg).
 - **`protect`** — an optional security review of your setup.

@@ -15,9 +15,9 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 | **Clean Handoffs** | Delegation via the 5 W's (Who / What / By When / Where / Why). |
 | **Leverage Quadrant** | Genius vs. delegate prioritization (Impact vs. Ease/Ability). |
 | **Inner Dialogue** | Move through a difficult emotion to the yearning underneath. |
-| **Catching** | Reflecting feelings, Cares at the core. |
+| **Catching** | Rehearse / prep / debrief empathic listening — feelings + Cares at the core (you do it live). |
 | **GAIN Feedback** | Prepares/refines feedback with the GAIN framework. |
-| **GROW Coaching** | Empowering questions + the GROW model. |
+| **GROW Coaching** | Rehearse / prep / debrief coaching — empowering questions + GROW (you do it live). |
 | **Meta-Prompt** | Creates and improves prompts. |
 | **Tiny Habit** | BJ Fogg after / I-will / celebrate habit design. |
 
