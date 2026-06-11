@@ -83,7 +83,7 @@ A deep calendar read is slow, so **never stall the flow waiting for it.** Defaul
 
 ### 3.5 Task management (REQUIRED — connect, then configure)
 
-**First question:** *"Where do your tasks and to-dos live today?"* — three clean options (plus free-text Other): **1. In an app** like Asana / Notion / Linear / Jira / Airtable / etc.; **2. A doc or spreadsheet**; **3. Nothing consistent** — it's in my head / scattered. If they pick "In an app," ask which one.
+**First question:** *"Where do your tasks and to-dos live today?"* — four options: **1. In an app** like Asana / Notion / Linear / Jira / Airtable / etc.; **2. A doc or spreadsheet**; **3. I have something but I don't love it**; **4. Nothing consistent** — it's in my head / scattered. If they pick "In an app," ask which one. Options 2–4 route to the **fallback** (Flow State or a task file); option 3 signals they're open to switching, so lead with Flow State or a fresh task file.
 
 Routing:
 - **A real tool they're happy with** → connect it, then **configure**: run a discovery query before interviewing —

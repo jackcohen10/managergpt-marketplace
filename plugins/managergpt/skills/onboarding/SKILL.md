@@ -92,14 +92,15 @@ If/when you do read 2–3 weeks of calendar, pull out meeting load, recurring me
 
 This is the sub-step that makes the planning rituals work.
 
-**First question (to find out what they use):** **"Where do your tasks and to-dos live today?"** — three clean options (plus the form's free-text "Other"):
+**First question (to find out what they use):** **"Where do your tasks and to-dos live today?"** — four options:
 1. **In an app** like Asana / Notion / Linear / Jira / Airtable / etc.
 2. **A doc or spreadsheet**
-3. **Nothing consistent** — it's in my head / scattered
+3. **I have something but I don't love it**
+4. **Nothing consistent** — it's in my head / scattered
 
 If they pick **In an app**, ask which one. Route on the answer:
 - **In an app** they're happy with → **Connect + Configure** (steps 1–2 below).
-- **A doc or spreadsheet** or **Nothing consistent** → the **fallback** below (Flow State or a task file).
+- **A doc or spreadsheet**, **I have something but I don't love it**, or **Nothing consistent** → the **fallback** below (Flow State or a task file). (Option 3 is the cue that they're open to switching — lead with Flow State or a fresh `tasks` file.)
 
 1. **Connect.** Find and connect their task tool (Asana, Linear, Notion, Todoist, etc.).
 2. **Configure — discover, then interview.** After it connects, run a **discovery query** to see how their tool is actually organized before asking anything:
