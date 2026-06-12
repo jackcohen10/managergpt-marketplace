@@ -8,7 +8,7 @@ Cowork uses `create_scheduled_task`; Codex has automations that work the same wa
 
 ## The draft-and-notify pattern (critical)
 
-A scheduled run is **not interactive** — the user isn't there to answer questions. So the planning rituals must **draft a starting point and notify the user to finish interactively**, never run the full interview unattended. And per the hard rules, **scheduled runs never delete** — anything slated for removal goes to a `pending-deletion/` folder for review.
+A scheduled run is **not interactive** — it fires at a set time whether or not the user is there to answer questions. So the planning rituals must **draft a starting point and notify the user to finish interactively**, never attempt the full interview unattended. (If they tried, they'd either stall waiting for answers no one's there to give, or invent the user's answers and write a fake reflection into the files.) Say *why* in the prompt — "since no one is present to answer" — so it's clear this is by design, not a watered-down version. The full interactive Weekly Preview / Plan My Day still runs whenever the user triggers it themselves. And per the hard rules, **scheduled runs never delete** — anything slated for removal goes to a `pending-deletion/` folder for review.
 
 Each prompt should: read the relevant context (calendar, task source, weekly-review history, `/familiar` if the flag is set) → draft → save to the OS Project → notify.
 
@@ -29,25 +29,31 @@ The timing is a real decision — walk the **timing table** interactively and le
 
 Default **Sunday 8 PM**. Suggest they experiment for 2–3 weeks and also block it as a recurring **calendar event**.
 ```
-Prompt: Run the Weekly Preview skill in scheduled mode. Read my calendar (last week
-and the week ahead), my task source and weekly-review history (per working-style.md),
-and call /familiar if the flag is set. Draft a starting point — a short reflection
-summary and 2–3 candidate priorities with rough Next Actions — save it to the OS
-Project, and notify me in plain language: "I drafted a starting point for your Weekly
-Preview — type Weekly Preview (or click the button below) to finish it together." Do
-not run the full interview, change the calendar, or delete anything.
+Prompt: Run the Weekly Preview skill in scheduled DRAFT mode. Read my calendar (last
+week and the week ahead), my task source and weekly-review history (per
+working-style.md), and call /familiar if the flag is set. Draft a starting point — a
+short reflection summary and 2–3 candidate priorities with rough Next Actions — save it
+to the OS Project, and notify me in plain language: "I drafted a starting point for your
+Weekly Preview — type Weekly Preview (or click the button below) to finish it together."
+This run is unattended, so draft only and stop there: do not attempt the full
+interactive interview (no one is present to answer the reflection or priority
+questions), and do not change the calendar, send messages, or delete anything. The full
+interview happens when I run it myself.
 Schedule: Sunday 8 PM (0 20 * * 0)
 ```
 
 ### 2. Plan My Day
 Ask **when** — weekday mornings or evenings — and tie it to an existing habit.
 ```
-Prompt: Run the Plan My Day skill in scheduled mode. Read today's calendar, this
+Prompt: Run the Plan My Day skill in scheduled DRAFT mode. Read today's calendar, this
 week's priorities, open/overdue tasks, the daily buffer (working-style.md), and
 /familiar if set. Draft available time after buffer, a short list of Today actions
 tied to the week's priorities, and a suggested first task. Save to the OS Project and
 notify me in plain language: "I drafted a starting plan for your day — type Plan my
-day (or click the button below) to finish it together." Don't finalize or delete anything.
+day (or click the button below) to finish it together." This run is unattended, so
+draft only and stop there: do not attempt the full interactive session (no one is
+present to answer), and don't finalize or delete anything. The full session happens
+when I run it myself.
 Schedule: weekday mornings (0 8 * * 1-5) — or the time they chose
 ```
 
