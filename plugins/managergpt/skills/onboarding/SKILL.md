@@ -94,7 +94,7 @@ If/when you do read 2–3 weeks of calendar, pull out meeting load, recurring me
 This is the sub-step that makes the planning rituals work.
 
 **First question — ask it exactly, with the four options listed (even in Codex/plain text; don't soften it into "where do your tasks live?"):** **"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"**
-1. **In an app I'm happy with** — Asana / Notion / Linear / Jira / Airtable / etc.
+1. **In an app I'm happy with** — Asana / Notion / Linear / Jira / Airtable / Monday.com / ClickUp / etc.
 2. **A doc or spreadsheet**
 3. **I have something, but I don't love it**
 4. **Nothing consistent** — it's in my head / scattered

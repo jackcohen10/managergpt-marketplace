@@ -83,7 +83,7 @@ A deep calendar read is slow, so **never stall the flow waiting for it.** Defaul
 
 ### 3.5 Task management (REQUIRED — connect, then configure)
 
-**First question — ask it exactly, with the four options listed (even in Codex/plain text; don't soften it to "where do your tasks live?"):** *"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"* — **1. In an app I'm happy with** (Asana / Notion / Linear / Jira / Airtable / etc.); **2. A doc or spreadsheet**; **3. I have something, but I don't love it**; **4. Nothing consistent** — it's in my head / scattered. The question does double duty: *where* tasks live **and** *whether they want to keep that home or build a new one.* If they pick "In an app," ask which one. **Options 2, 3, and 4 all mean they're open to a better dock — route to the fallback and always offer Flow State first; never silently create `tasks.md`.**
+**First question — ask it exactly, with the four options listed (even in Codex/plain text; don't soften it to "where do your tasks live?"):** *"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"* — **1. In an app I'm happy with** (Asana / Notion / Linear / Jira / Airtable / Monday.com / ClickUp / etc.); **2. A doc or spreadsheet**; **3. I have something, but I don't love it**; **4. Nothing consistent** — it's in my head / scattered. The question does double duty: *where* tasks live **and** *whether they want to keep that home or build a new one.* If they pick "In an app," ask which one. **Options 2, 3, and 4 all mean they're open to a better dock — route to the fallback and always offer Flow State first; never silently create `tasks.md`.**
 
 Routing:
 - **Option 1 (a tool they're happy with)** → connect it, then **configure**: run a discovery query before interviewing —
@@ -92,6 +92,8 @@ Routing:
   - Notion → have them point you at the database, then read its properties
   - Todoist → projects, labels
   - Airtable → bases, tables, fields (ask which base/table holds tasks)
+  - Monday.com → workspaces, boards, groups, status/priority columns
+  - ClickUp → spaces, folders, lists, statuses, custom fields
   Then interview them on their conventions and write the **Task management block** (see `task-management-guide.md`) into the Outer Game of `working-style.md`, mapping their structure to the canonical labels: **Today, Later, Someday/Maybe, Waiting For, Done** (record whatever they actually use).
 - **Options 2, 3, or 4** → the **fallback**: **lead with Flow State** (the ManagerGPT task app) as the recommended dock — name it first. Only if they'd rather a plain file, build a task file mirroring the Next Actions template (columns **By When, Action, Priority, Project, Notes, Time**; a **This Week's Priorities 1 / 2 / 3-stretch** block; the **Daily Defining + Weekly Preview checklists** at the bottom). If they choose the file, ask format: **`tasks.xlsx`** (closest to the Next Actions spreadsheet) or **`tasks.md`** (lighter, plain text). **The user picks — Flow State, spreadsheet, or markdown; don't default to `tasks.md` on their behalf.** Create it in `PROJECTS/` and record the location + format in the Task management block.
 

@@ -8,7 +8,7 @@ How to connect and configure the user's task source during **Hire**, and how to 
 
 Ask it as a real choice, not an open prompt: *"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"* The four options:
 
-1. **In an app I'm happy with** — Asana / Linear / Notion / Todoist / Airtable / another tool (capture as free text).
+1. **In an app I'm happy with** — Asana / Linear / Notion / Todoist / Airtable / Monday.com / ClickUp / another tool (capture as free text).
 2. **A doc or spreadsheet.**
 3. **I have something, but I don't love it.**
 4. **Nothing consistent** — it's in my head / scattered.
@@ -31,6 +31,8 @@ Before asking anything, run a **discovery query** so you're interviewing against
 | Notion | have them point you at the tasks database, then read its properties/select options |
 | Todoist | projects, sections, labels, priorities |
 | Airtable | bases, tables, fields (ask which base/table holds tasks) |
+| Monday.com | workspaces, boards, groups, status/priority columns |
+| ClickUp | spaces, folders, lists, statuses, custom fields |
 
 Then interview on conventions: which project/list holds their active work, which field carries status/priority, how they mark something as waiting on someone else, where "this week's priorities" would live. Keep it to a few questions.
 
@@ -54,7 +56,7 @@ Users can customize the label names — record whatever they actually use, and n
 
 ```markdown
 ### Task management
-- Source: [Asana / Linear / Notion / Todoist / Airtable / Flow State / PROJECTS/tasks.xlsx / PROJECTS/tasks.md]
+- Source: [Asana / Linear / Notion / Todoist / Airtable / Monday.com / ClickUp / Flow State / PROJECTS/tasks.xlsx / PROJECTS/tasks.md]
 - Where active work lives: [workspace/project/list/base+table]
 - Priority labels (their term → canonical):
   - [their "Now"] → Today
