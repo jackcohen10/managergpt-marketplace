@@ -6,12 +6,17 @@ How to connect and configure the user's task source during **Hire**, and how to 
 
 ## The first question
 
-*"Where do your tasks and to-dos live today?"* — Asana / Linear / Notion / Todoist / Airtable / Another tool / A spreadsheet or doc / I have something but don't love it and am interested in changing it / Nothing consistent — it's in my head.
+Ask it as a real choice, not an open prompt: *"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"* The four options:
 
-It's more than a 4-button form holds, so present it as a short list they click the closest match to or dictate. Capture "Another tool" as free text.
+1. **In an app I'm happy with** — Asana / Linear / Notion / Todoist / Airtable / another tool (capture as free text).
+2. **A doc or spreadsheet.**
+3. **I have something, but I don't love it.**
+4. **Nothing consistent** — it's in my head / scattered.
 
-- **A real tool they're happy with** → connect, then configure (below).
-- **A spreadsheet/doc, "don't love it," or nothing** → the fallback (below).
+It carries more than a 4-button form holds, so in plain-text surfaces (Codex) **list the options explicitly** — don't shrink it to "where do your tasks live?" The question does double duty: *where* tasks live **and** *whether they want to keep that home or build a new one.*
+
+- **Option 1 (a tool they're happy with)** → connect, then configure (below).
+- **Options 2, 3, or 4** → the fallback (below). All three signal they're open to a better **dock** — so offer one; **always name Flow State first**, and never just create `tasks.md` silently.
 
 ---
 
@@ -68,10 +73,10 @@ The planning skills read this block to know where to write, how to tag, and how 
 
 ## Fallback: no tool, a loose spreadsheet/doc, or "don't love it"
 
-Offer two paths:
+Offer two paths — **lead with Flow State, and let the user pick; don't default to a file on their behalf:**
 
-1. **Flow State** (the ManagerGPT task app) — the most integrated option; if they're open to a new tool, point them there.
-2. **A task file** mirroring the Next Actions template. If they choose this, **ask the format:**
+1. **Flow State** (the ManagerGPT task app) — the most integrated option and the recommended dock; name it first whenever they're open to a new home.
+2. **A task file** mirroring the Next Actions template. Only if they'd rather a plain file — then **ask the format:**
    - **`tasks.xlsx`** — closest to the Next Actions spreadsheet; sortable and filterable.
    - **`tasks.md`** — lighter, plain text, easy to read in the repo.
 

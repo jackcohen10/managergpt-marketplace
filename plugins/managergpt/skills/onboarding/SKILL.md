@@ -38,6 +38,7 @@ Read the detailed flows before running a phase: `@${CLAUDE_PLUGIN_ROOT}/skills/o
 ## How to run this (always)
 
 - **Use AskUserQuestion for every interview step.** Multiple-choice options reduce friction; always allow free text for nuance. Ask **1–2 questions at a time** — never a wall.
+- **In Codex (or anywhere AskUserQuestion isn't available), still ask the SAME explicit choices in plain text.** List the numbered options exactly as written — don't collapse a structured question into a vague open prompt (e.g. don't turn the task question into "where do your tasks live?"). The options *are* the design; the branches downstream depend on which one they pick.
 - **Encourage dictation.** Tell the user early: "You can dictate your answers — tap the dictation button (the microphone in the message bar) and just talk. You don't have to do it all at once; send a chunk, then add more. Most people think out loud better than they type." Re-offer when an answer would benefit from a brain-dump.
 - **Confirm before each phase change.** Before leaving a phase, ask if they feel done with it: "Anything else for [phase] before we move to [next]?"
 - **Save progress as you go.** Generate and save each file the moment it's ready — never batch to the end. The user can pause anytime and resume.
@@ -92,15 +93,15 @@ If/when you do read 2–3 weeks of calendar, pull out meeting load, recurring me
 
 This is the sub-step that makes the planning rituals work.
 
-**First question (to find out what they use):** **"Where do your tasks and to-dos live today?"** — four options:
-1. **In an app** like Asana / Notion / Linear / Jira / Airtable / etc.
+**First question — ask it exactly, with the four options listed (even in Codex/plain text; don't soften it into "where do your tasks live?"):** **"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"**
+1. **In an app I'm happy with** — Asana / Notion / Linear / Jira / Airtable / etc.
 2. **A doc or spreadsheet**
-3. **I have something but I don't love it**
+3. **I have something, but I don't love it**
 4. **Nothing consistent** — it's in my head / scattered
 
-If they pick **In an app**, ask which one. Route on the answer:
-- **In an app** they're happy with → **Connect + Configure** (steps 1–2 below).
-- **A doc or spreadsheet**, **I have something but I don't love it**, or **Nothing consistent** → the **fallback** below (Flow State or a task file). (Option 3 is the cue that they're open to switching — lead with Flow State or a fresh `tasks` file.)
+This question does double duty: it learns *where* tasks live **and** *whether they want to keep that home or build a new one.* Don't quietly accept their current setup — options 2, 3, and 4 all mean they're open to a better **dock**, so you must offer to set one up. If they pick **In an app**, ask which one. Route on the answer:
+- **Option 1 (app they're happy with)** → **Connect + Configure** (steps 1–2 below).
+- **Options 2, 3, or 4** → the **fallback** below. **Always offer Flow State first**, then a task file as the lighter alternative — never silently create `tasks.md` without presenting the choice.
 
 1. **Connect.** Find and connect their task tool (Asana, Linear, Notion, Todoist, etc.).
 2. **Configure — discover, then interview.** After it connects, run a **discovery query** to see how their tool is actually organized before asking anything:
@@ -111,7 +112,7 @@ If they pick **In an app**, ask which one. Route on the answer:
    - Airtable → bases, tables, and fields (ask which base/table holds their tasks)
    Then interview them on their conventions and write a **"Task management" block** into `working-style.md` (Outer Game section) that maps their real structure to the canonical priority labels: **Today** (committed for today), **Later** (committed, after today), **Someday/Maybe** (idea, no commitment), **Waiting For** (blocked on someone — note who), **Done**. (Users can customize the labels; record whatever they actually use.)
 
-   **If they have no task tool (or only a spreadsheet/doc):** offer **Flow State** (the ManagerGPT task app), **or** build them a simple task file mirroring the Next Actions template — columns **By When, Action, Priority, Project, Notes, Time**, a **This Week's Priorities (1 / 2 / 3-stretch)** block, and the **Daily Defining + Weekly Preview checklists embedded at the bottom**. If they choose the file, **ask their format preference:** a **spreadsheet** (`tasks.xlsx` — closest to the Next Actions spreadsheet, sortable and filterable) or **`tasks.md`** (lighter, plain text, easy to read in the repo). Create it in `PROJECTS/` and record in the Task management block where tasks live and which format.
+   **Fallback — offer them a dock (don't skip this, and don't just create a file):** lead with **Flow State** (the ManagerGPT task app) as the recommended home — name it explicitly as the first option. If they'd rather a plain file, build a simple task file mirroring the Next Actions template — columns **By When, Action, Priority, Project, Notes, Time**, a **This Week's Priorities (1 / 2 / 3-stretch)** block, and the **Daily Defining + Weekly Preview checklists embedded at the bottom**. If they choose the file, **ask their format preference:** a **spreadsheet** (`tasks.xlsx` — closest to the Next Actions spreadsheet, sortable and filterable) or **`tasks.md`** (lighter, plain text, easy to read in the repo). Create it in `PROJECTS/` and record in the Task management block where tasks live and which format. **The user picks — Flow State, spreadsheet, or markdown — you don't default to `tasks.md` on their behalf.**
 
 3. **Daily buffer.** While here, ask: **"Based on what you know about your typical days, how much buffer time should you leave each day for fighting fires and responding to unplanned opportunities?"** Save the answer to the Outer Game section of `working-style.md` — the Plan My Day skill reads it to compute real available time.
 
