@@ -44,7 +44,7 @@ A stripped path to value. Skips Gossip, the calendar audit, and most of the Inne
 1. **Minimal workspace.** Create `CONTEXT/` and `OUTPUTS/` only. Explain: "CONTEXT holds who you are; OUTPUTS is where I deliver work. We can expand later."
 2. **Three-question about-me** (AskUserQuestion, one at a time): what they do + the business; the tools they use daily; how they want the OS to work with them (ask first / just go on simple things / show a plan first).
 3. **Generate `about-me.md`** from the answers; present and offer to refine.
-4. **Where do tasks live?** Ask the task-management first question (Section 3.4). Connect or set up a `tasks.md`/`tasks.xlsx` so at least Plan My Day and Weekly Preview have somewhere to write.
+4. **Where do tasks live — and do they want a fresh dock?** Ask the task-management first question with its four explicit options (Section 3.5) — even in Quickstart, don't shrink it to "where do your tasks live?" If they're on options 2–4, **offer Flow State first**, then a `tasks.md`/`tasks.xlsx` as the lighter alternative, so Plan My Day and Weekly Preview have somewhere to write. Never silently create `tasks.md` — the user picks.
 5. **Minimal Global Instructions** — who they are, how they work, output defaults, the hard delete rules, and "If I haven't selected a Project, suggest opening the OS Project." Walk through pasting it in.
 6. **Show what Full Setup adds** (Inner Game, team context, calendar audit, automations, Familiar) and invite them back anytime.
 
@@ -83,17 +83,17 @@ A deep calendar read is slow, so **never stall the flow waiting for it.** Defaul
 
 ### 3.5 Task management (REQUIRED — connect, then configure)
 
-**First question:** *"Where do your tasks and to-dos live today?"* — four options: **1. In an app** like Asana / Notion / Linear / Jira / Airtable / etc.; **2. A doc or spreadsheet**; **3. I have something but I don't love it**; **4. Nothing consistent** — it's in my head / scattered. If they pick "In an app," ask which one. Options 2–4 route to the **fallback** (Flow State or a task file); option 3 signals they're open to switching, so lead with Flow State or a fresh task file.
+**First question — ask it exactly, with the four options listed (even in Codex/plain text; don't soften it to "where do your tasks live?"):** *"Where do your tasks and to-dos live today — and do you love that system, or are you open to a fresh one?"* — **1. In an app I'm happy with** (Asana / Notion / Linear / Jira / Airtable / etc.); **2. A doc or spreadsheet**; **3. I have something, but I don't love it**; **4. Nothing consistent** — it's in my head / scattered. The question does double duty: *where* tasks live **and** *whether they want to keep that home or build a new one.* If they pick "In an app," ask which one. **Options 2, 3, and 4 all mean they're open to a better dock — route to the fallback and always offer Flow State first; never silently create `tasks.md`.**
 
 Routing:
-- **A real tool they're happy with** → connect it, then **configure**: run a discovery query before interviewing —
+- **Option 1 (a tool they're happy with)** → connect it, then **configure**: run a discovery query before interviewing —
   - Asana → workspaces, projects, custom fields
   - Linear → teams, projects, workflow states
   - Notion → have them point you at the database, then read its properties
   - Todoist → projects, labels
   - Airtable → bases, tables, fields (ask which base/table holds tasks)
   Then interview them on their conventions and write the **Task management block** (see `task-management-guide.md`) into the Outer Game of `working-style.md`, mapping their structure to the canonical labels: **Today, Later, Someday/Maybe, Waiting For, Done** (record whatever they actually use).
-- **A spreadsheet/doc, "don't love it," or nothing** → the **fallback**: offer **Flow State** (the ManagerGPT task app), or build a task file mirroring the Next Actions template (columns **By When, Action, Priority, Project, Notes, Time**; a **This Week's Priorities 1 / 2 / 3-stretch** block; the **Daily Defining + Weekly Preview checklists** at the bottom). If they choose the file, ask format: **`tasks.xlsx`** (closest to the Next Actions spreadsheet) or **`tasks.md`** (lighter, plain text). Create it in `PROJECTS/` and record the location + format in the Task management block.
+- **Options 2, 3, or 4** → the **fallback**: **lead with Flow State** (the ManagerGPT task app) as the recommended dock — name it first. Only if they'd rather a plain file, build a task file mirroring the Next Actions template (columns **By When, Action, Priority, Project, Notes, Time**; a **This Week's Priorities 1 / 2 / 3-stretch** block; the **Daily Defining + Weekly Preview checklists** at the bottom). If they choose the file, ask format: **`tasks.xlsx`** (closest to the Next Actions spreadsheet) or **`tasks.md`** (lighter, plain text). **The user picks — Flow State, spreadsheet, or markdown; don't default to `tasks.md` on their behalf.** Create it in `PROJECTS/` and record the location + format in the Task management block.
 
 **Daily buffer (ask here, save here):** *"Based on what you know about your typical days, how much buffer time should you leave each day for fighting fires and responding to unplanned opportunities?"* If the calendar audit proposed an estimate, offer it as the starting point. Save the answer to the Outer Game of `working-style.md` — Plan My Day reads it.
 
