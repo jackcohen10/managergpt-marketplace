@@ -10,6 +10,7 @@ One plugin, `managergpt`, containing:
 - **`weekly-preview`** — the core weekly planning ritual (close out the week, choose defined outcomes, block Deep Work, delegate).
 - **`plan-my-day`** — Daily Defining: what today is really for, after your buffer.
 - **`delegate-with-clean-handoffs`** — delegate cleanly with the 5 W's.
+- **`decline`** — draft a meeting decline in your voice; protect Deep Work without burning the relationship.
 - **`leverage-quadrant`** — what's your Genius work vs. what to delegate.
 - **`inner-dialogue`** — Move through a difficult emotion to the yearning underneath.
 - **`catching`** — rehearse, prep, and debrief empathic listening (Catching).
@@ -49,6 +50,7 @@ managergpt-marketplace/
             ├── weekly-preview/
             ├── plan-my-day/
             ├── delegate-with-clean-handoffs/
+            ├── decline/
             ├── leverage-quadrant/
             ├── inner-dialogue/
             ├── catching/

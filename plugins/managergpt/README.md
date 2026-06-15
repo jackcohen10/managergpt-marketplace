@@ -12,6 +12,7 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:weekly-preview` | Close out the week and author the next one — defined outcomes, Deep Work, delegation. |
 | `/managergpt:plan-my-day` | Daily Defining — what today is for, after your buffer. |
 | `/managergpt:delegate-with-clean-handoffs` | Delegate with the 5 W's (Who / What / By When / Where / Why). |
+| `/managergpt:decline` | Draft a meeting decline in your voice — protect Deep Work without burning the relationship. |
 | `/managergpt:leverage-quadrant` | Your Genius work vs. what to delegate (Impact × ability of others). |
 | `/managergpt:inner-dialogue` | Move through a difficult emotion to the yearning underneath. |
 | `/managergpt:catching` | Rehearse, prep, and debrief empathic listening (Catching) — feelings + the cares at the core. |

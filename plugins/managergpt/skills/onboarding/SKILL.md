@@ -128,7 +128,7 @@ See `task-management-guide.md` for the discovery queries and the block format.
 
 Intro line (say this): **"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."**
 
-- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
+- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
 - Tell them their **Global Instructions** get written at the end of Intake, from everything learned — so they're personalized, not generic.
 
 **Phase confirmation:** confirm the bundle installed, then move to Intake.
@@ -142,6 +142,8 @@ Generate the files that tell the OS who the user is and how they work.
 ### Use the Day 1 doc (already imported in Hire)
 
 You asked for the Day-1 / Workshop #1 doc at the very start of Hire. If they shared one, pre-fill the files below from it so the interview is confirmation, not blank-slate typing. If they didn't have it then but mention it now, grab it here.
+
+**The Day-1 doc also carries the self-audits and the Attention-Reflection exercise** — use them: the Behavior/Mindset audits feed the Inner Game (below); the **Attention-Reflection table** (tasks ranked by attention vs. impact) is a priorities seed, **not** an auto-built Leverage Quadrant. Don't categorize it into quadrants. Instead, surface the **highest-impact items** as candidate **This Week's Priorities** for their first Weekly Preview to confirm or adjust — note them and hand them off; let the Weekly Preview do the actual choosing.
 
 ### Feed the Context Library (doc-first — optional, fill over time)
 
@@ -168,7 +170,7 @@ Identity, role, professional background, the businesses/projects they run, and t
 ### Generate working-style.md — THREE sections
 
 - **Outer Game:** weekly preview cadence, daily defining cadence, the daily buffer (from Hire), output formats, communication style, clean-handoff triggers, **decline language + preference** (their Day-1 meeting-decline scripts, and whether the OS reuses them verbatim or just matches the voice — see `context-files-guide.md`), and the **Task management block** (from Hire).
-- **Inner Game:** their Re-Actor patterns, the difficult emotions that recur and what each signals, what they want to embody, and their Catching practices — plus (the Personal layer of the Context Library, optional and sensitive) recent feedback / review themes they want to keep monitoring and the leadership/scaling wisdom they've bookmarked but forget to apply in the moment.
+- **Inner Game:** their Re-Actor patterns, their **Re-Actor behaviors (the tells they rated 4–5 in the Day-1 Behavior Self-Audit)** and **Re-Actor voices (the mindset voices they checked)**, the difficult emotions that recur and what each signals, what they want to embody, and their Catching practices — plus (the Personal layer of the Context Library, optional and sensitive) recent feedback / review themes they want to keep monitoring and the leadership/scaling wisdom they've bookmarked but forget to apply in the moment.
 - **Both — Habits & Rituals:** patterns that involve both games at once.
 
 ### The Gap Check (distinctive — don't skip)

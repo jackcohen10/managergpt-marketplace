@@ -87,6 +87,20 @@ lives in this file: `Familiar: installed and authorized for use by skills.`]
 ### Re-Actor patterns
 [The situations where they slip from Author into reacting — what tends to trigger it.]
 
+### Re-Actor behaviors — their tells
+[From the Day-1 Behavior Self-Audit: the behaviors they rated 4 or 5 ("this is me").
+e.g., replying to Slack/Teams within 1–2 hours, scanning email between meetings,
+doing real work nights/weekends, accepting all meeting invites, solving problems for
+people instead of coaching them. These are the observable signs they've slipped into
+reacting — the skills watch for them.]
+
+### Re-Actor voices — the inner narration
+[From the Day-1 Mindset Self-Audit: the voices they checked. e.g., "I don't have
+enough time," "I have to do this perfectly," "If I don't do this well, I won't be
+seen as valuable," "They won't succeed if I don't tell them what to do," "How will
+others view me?" These are the drivers underneath the behaviors — the skills
+recognize them and gently counter them rather than argue.]
+
 ### Recurring difficult emotions — and what each signals
 [The emotions that show up often (overwhelm, frustration, anxiety, resentment…) and
 what each one tends to be pointing at or trying to protect.]
@@ -119,6 +133,7 @@ self-check-ins.]
 - (Planning cadence and Task management/buffer come from Hire — carry them in.)
 
 **Inner Game** (go gently; this is where the real value is)
+- **Pull from the Day-1 self-audits first.** If the Day-1 doc has the Re-Actor Behavior and Mindset Self-Audits, extract from them rather than re-interviewing: the **behaviors rated 4 or 5** → "Re-Actor behaviors — their tells"; the **checked mindset voices** → "Re-Actor voices — the inner narration." Reflect them back to confirm; only ask the questions below for what the doc doesn't cover.
 - "When do you find yourself slipping from being the Author of your week into just reacting? What tends to trigger it?"
 - "What difficult emotions show up most often for you at work? When [emotion] shows up, what's it usually pointing at?"
 - "What do you most want to embody — the way of being you're growing toward?"

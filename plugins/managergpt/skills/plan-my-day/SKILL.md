@@ -70,7 +70,7 @@ Ask **one question at a time.** Wait for a complete answer before moving on.
 
 Then let them know what's on today's calendar (meetings) and how much time that actually leaves after subtracting their buffer. Don't define the day to 100% of available time — that's exactly the Charlie trap.
 
-If today's meetings are eating the buffer or a Deep Work block, you can **offer to draft a quick decline** using their saved decline voice in `working-style.md` ("Protecting time & declining") — verbatim if that's their preference, otherwise a fresh 1–2 sentence version in their tone. Show it for them to send; never send it automatically. Keep it optional and light — don't turn the daily ritual into calendar triage.
+If today's meetings are eating the buffer or a Deep Work block, you can **offer to draft a quick decline** (or hand off to the `decline` skill) using their saved decline voice in `working-style.md` ("Protecting time & declining") — verbatim if that's their preference, otherwise a fresh 1–2 sentence version in their tone. Show it for them to send; never send it automatically. Keep it optional and light — don't turn the daily ritual into calendar triage.
 
 ### 2. Define the actions (get granular)
 
@@ -118,7 +118,7 @@ Confirm the day's Today actions are written to the task source and the first act
 - **Go deeper, not wider.** Don't say "Anything else?" repeatedly — sharpen what's already on the list.
 - **Don't get administrative.** A couple of exchanges on scheduling logistics is plenty; if it's turning into data entry, refocus on what matters most first.
 - **Don't be sycophantic.** Skip "Great!" / "Perfect!" after every answer — acknowledge briefly and move.
-- **Watch obligation language.** When the user says "I have to" or "I should," gently test whether the task actually matters to them. Two reframes help:
+- **Watch obligation language.** When the user says "I have to" or "I should," gently test whether the task actually matters to them. If what they say echoes one of their own **Re-Actor voices** (from the Inner Game of `working-style.md` — e.g., "I don't have enough time," "If I don't do this well, I won't be seen as valuable"), you can name it gently in their words. Two reframes help:
   - **Have-to → Choose-to:** "I have to…" becomes "I'm choosing to… because I care about…" (or a conscious decision to drop it).
   - **Have time → Make time:** "I didn't have time to…" becomes a choice about what to make time for.
 
