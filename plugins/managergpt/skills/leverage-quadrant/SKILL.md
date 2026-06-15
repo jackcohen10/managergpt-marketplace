@@ -36,7 +36,18 @@ Read `about-me.md` and **`org-and-team-context.md`** (their goals, and the compa
 The point isn't to do more — it's to concentrate your time on the top-left and give away as much of the right column as you can. Surfacing one or two big things to delegate is usually the highest-value outcome of the exercise.
 
 ## Output
-Show the quadrant filled in (offer a visual artifact if they'd like one, otherwise a simple table works). For everything in the **Delegate** box, offer to run a Clean Handoff right now — and once handed off, **track it as a Waiting For** in their task source (who + By When, or the equivalent status per the Task management block), with any check-in as its own dated action; the `delegate-with-clean-handoffs` skill does this. For the **Do** box, offer to block Deep Work time (or feed it into the next Weekly Preview) or ask if there are items here where they would prefer to hire someone and can use this as the start of a job description.
+Show the quadrant filled in (a simple table works; or offer the draggable **Interactive mode** below if they'd rather place it visually). For everything in the **Delegate** box, offer to run a Clean Handoff right now — and once handed off, **track it as a Waiting For** in their task source (who + By When, or the equivalent status per the Task management block), with any check-in as its own dated action; the `delegate-with-clean-handoffs` skill does this. For the **Do** box, offer to block Deep Work time (or feed it into the next Weekly Preview) or ask if there are items here where they would prefer to hire someone and can use this as the start of a job description.
+
+## Interactive mode (optional — Cowork & Codex)
+
+Some people place faster by *dragging* than by answering item-by-item. An interactive quadrant ships with this skill at `${CLAUDE_PLUGIN_ROOT}/skills/leverage-quadrant/assets/` (`quadrant.html` + `serve.py`). Offer it when they'd rather sort visually; otherwise the conversational version above is the default. Either way **you** rank the items by impact first and hand them over pre-placed — the user adjusts, they don't start from a blank grid.
+
+The user sets two dimensions per item (impact ↑, others-can-do →), then clicks **Complete and prep delegation**. Axes: top-left = Do this, top-right = Delegate, bottom-left = Be careful, bottom-right = Minimize. How the result comes back differs by surface:
+
+- **Cowork** — create an artifact from `quadrant.html`, injecting the ranked items as `window.LQ_ITEMS = [{n,imp,oth}, …]` (imp/oth are 0–100; default 50). On **Complete and prep delegation**, the page calls `sendPrompt()` and the placements land back in chat.
+- **Codex** (in-app browser; needs the Browser plugin) — write the ranked items to `items.json` beside the asset, run `python3 serve.py`, and open `http://localhost:8000/quadrant.html` in the in-app browser. On **Complete and prep delegation**, the page POSTs to the local server, which writes `placements.json`; read that file to continue. (The page also falls back to downloading `placements.json` if no server is present.)
+
+Once you have the placements (from either surface), continue exactly as in **Output**: Delegate box → Clean Handoff + track as Waiting For; Do box → protect Deep Work / feed the next Weekly Preview. If neither interactive path is available, just use the conversational table — nothing is lost but the dragging.
 
 ## Cross-skill note
 This is the same Impact-vs-Ease/Ability lens the Weekly Preview uses in its delegation step. Pair with `delegate-with-clean-handoffs` to actually hand off what you decide to give away.
