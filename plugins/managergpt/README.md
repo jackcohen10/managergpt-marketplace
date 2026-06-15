@@ -14,7 +14,7 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:delegate-with-clean-handoffs` | Delegate with the 5 W's (Who / What / By When / Where / Why). |
 | `/managergpt:decline` | Draft a meeting decline in your voice — protect Deep Work without burning the relationship. |
 | `/managergpt:leverage-quadrant` | Your Genius work vs. what to delegate (Impact × ability of others). |
-| `/managergpt:inner-dialogue` | Move through a difficult emotion to the yearning underneath. |
+| `/managergpt:inner-dialogue` | Relate to a difficult emotion from Self and uncover what it's protecting (IFS-inspired). |
 | `/managergpt:catching` | Rehearse, prep, and debrief empathic listening (Catching) — feelings + the cares at the core. |
 | `/managergpt:feedback-gain` | Prepare, refine, or practice feedback with GAIN. |
 | `/managergpt:coaching-grow` | Rehearse, prep, and debrief coaching — empowering questions + GROW. |

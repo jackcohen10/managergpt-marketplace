@@ -15,7 +15,7 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 | **Clean Handoffs** | Delegation via the 5 W's (Who / What / By When / Where / Why). |
 | **Decline** | Drafts a meeting decline in the user's voice — protect Deep Work without burning the relationship (draft only; the user sends). |
 | **Leverage Quadrant** | Genius vs. delegate prioritization (Impact vs. Ease/Ability). |
-| **Inner Dialogue** | Move through a difficult emotion to the yearning underneath. |
+| **Inner Dialogue** | Relate to a difficult emotion from Self and uncover what it's protecting — IFS-inspired (Claude can voice the emotion, or coach while the user holds both roles). |
 | **Catching** | Rehearse / prep / debrief empathic listening — feelings + Cares at the core (you do it live). |
 | **GAIN Feedback** | Prepares/refines feedback with the GAIN framework. |
 | **GROW Coaching** | Rehearse / prep / debrief coaching — empowering questions + GROW (you do it live). |

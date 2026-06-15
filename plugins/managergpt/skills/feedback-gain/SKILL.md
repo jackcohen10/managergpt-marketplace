@@ -34,16 +34,11 @@ Ask which they want (or infer it):
 
 ### "Help me prepare or refine feedback"
 
-**Read the charge before you build.** Knowing their emotional starting point is part of good prep — your quality of presence is part of GAIN's Inner Game. A light way in: *"Before we shape this, how are you feeling toward [person] right now?"* And as they answer the first question below, read the *heat* in it — contempt, absolutes ("they always…"), character labels, a can't-let-go quality, a long unresolved history. The topic being the other person isn't the signal (this method deliberately starts there); the **intensity** is.
+**Notice their starting emotion — and let them name it.** Their quality of presence is part of GAIN's Inner Game, so a light way in is: *"Before we shape this, how are you feeling toward [person] right now?"* That gives you the starting point and lets *them* name it, rather than you diagnosing their state from the outside.
 
-If it's hot, offer a detour before crafting anything — optional, their call:
+If they name a real charge — by their own account, not your read of the "heat" — you can offer a quick Inner Dialogue first, optional and their call: *"Sounds like there's some [their word] in this. Want to spend a couple minutes with that first — it often informs the actual content of the feedback — or go straight to shaping it?"* If yes, hand to the `inner-dialogue` skill, then come back here. One invitation; if they decline, drop it and don't re-offer.
 
-> "There's a lot of heat in how you're describing this, and understandably so. Sometimes it's worth getting clear inside first, so the feedback comes from what you actually want rather than the frustration.
-> Want to:
-> 1. Do that — spend a couple minutes working through the [emotion] to harness its intelligence (it often informs the *content* of the feedback), or
-> 2. Go straight into shaping the feedback now?"
-
-If they take option 1, hand to the `inner-dialogue` skill, then come back here. **Backstop:** even if they declined, if their "observations" keep coming out as judgments no matter how you redirect, or they genuinely can't find their own contribution at question 4, that's the emotion obstructing the work — pause and offer the detour then.
+**Backstop (keep this — it earns its place):** if, as you work, their "observations" keep coming out as judgments no matter how you redirect, or they genuinely can't find their own contribution at question 4, that's the emotion obstructing the work — gently offer the Inner Dialogue detour then, even if they declined earlier.
 
 Ask these four, **one at a time**, only moving on once each is answered well:
 1. **What do you wish the other person would do differently?**

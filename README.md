@@ -12,7 +12,7 @@ One plugin, `managergpt`, containing:
 - **`delegate-with-clean-handoffs`** — delegate cleanly with the 5 W's.
 - **`decline`** — draft a meeting decline in your voice; protect Deep Work without burning the relationship.
 - **`leverage-quadrant`** — what's your Genius work vs. what to delegate.
-- **`inner-dialogue`** — Move through a difficult emotion to the yearning underneath.
+- **`inner-dialogue`** — relate to a difficult emotion from Self and uncover what it's protecting (IFS-inspired).
 - **`catching`** — rehearse, prep, and debrief empathic listening (Catching).
 - **`feedback-gain`** — prepare, refine, or practice feedback with GAIN.
 - **`coaching-grow`** — rehearse, prep, and debrief coaching (empowering questions + GROW).
