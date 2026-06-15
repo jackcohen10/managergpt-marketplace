@@ -72,17 +72,24 @@ Then let them know what's on today's calendar (meetings) and how much time that 
 
 ### 2. Define the actions (get granular)
 
-Ask: **"What are the specific Next Actions for today?"**
+Ask: **"What are the most impactful things you could do today? Get specific."**
 
 Then proactively offer the ones you've already identified: *"Here are some I've already spotted from your open tasks and this week's priorities…"* If they've connected their email and messaging tools (e.g. Slack or Teams), you can add: *"And here are some I'm suggesting based on incoming messages."*
 
 Check them against **this week's priorities** (most important, because they're most impactful) and any upcoming deadlines and meetings first — today should move the week forward, not just clear noise.
 
-**If an action is vague, point it out and offer a precise version** (this is Getting Granular). Push imprecise open loops into concrete first moves:
+**Get each action precise — but only sharpen what needs it** (this is Getting Granular). An action is precise when, reading it later today, the user knows the exact first move and feels no resistance to starting. Quietly check each against that bar:
+- **Concrete and physical** — the actual first move ("Pull current transaction data"), not an area of work ("transaction monitoring rule").
+- **Granular enough for _this_ person** — down to whatever level _they_ need to just start; calibrate to them, not a fixed size.
+- **Low-resistance** — small and clear enough there's no flinch.
+
+If an action already passes, **leave it and move on** — over-sharpening a good action is what turns a five-minute ritual into a chore. If it falls short, **don't interrogate — offer a precise version** and let them react:
 
 - "New transaction monitoring rule" → "Pull current transaction data."
 - "Onboard Nikhil and Laura" → "Ask Sara if she'll be their onboarding mentor."
 - "Start investing locally" → "Text my two friends to set up time to discuss."
+
+When a sharper version is clearer for being concrete, draw on what you know — their tools, docs, people — but don't force it; often the plainest task-specific phrasing is the lowest-resistance one. If it helps, use the resistance test out loud: _"Reading that at 2pm, would you know your first move — or push it off?"_
 
 Write each action to the task source, tagged **Today**, and **linked to its weekly priority** using the priority's exact text (per the Task management block) when it ladders up to one.
 
