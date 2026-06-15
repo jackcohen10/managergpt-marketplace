@@ -146,7 +146,19 @@ First ask: **"What does 'done' look like for this? How will you know on Friday i
 
 If they push back ("it's fine," "I know what I mean"), name the risk gently: "When 'done' stays fuzzy, nothing feels done enough to ship — and the priority comes back next week. Can we make it concrete enough that you'll know?" If they've listed this priority before, connect the dots. If they still resist, accept it — but note it. Don't force.
 
-Once "done" is clear, ask: **"What are the precise Next Actions for [priority]?"** Write each to the task source, **linked to this priority** if this is feasible in that source (use the priority's exact text as the grouping per the Task management block) and tagged with a priority label. Attach the done-criteria to the relevant action's notes proactively so they can test against it later.
+Once "done" is clear, ask: **"What are the precise Next Actions for [priority]?"**
+
+Precise actions are what create momentum later: when it's time to do the work, a crisply defined action pulls you in, while a vague one invites avoidance. So the bar is — **future-you, glancing at this mid-week, knows exactly what to do and feels no resistance to starting.** Three tests:
+- **Concrete and physical** — names the actual first move ("Draft the budget table in the proposal doc"), not an area of effort ("work on proposal").
+- **Granular enough for _this_ person** — broken down to whatever level _they_ need to just start. Some need "Email Sarah"; others need "Open the Q3 doc, paste last year's numbers, adjust the three that changed." Calibrate to them, not to a fixed size.
+- **Low-resistance** — small and clear enough there's no flinch. If they'd hesitate or think "…how do I even start that?", it's still too big or too fuzzy.
+
+**Assess each action against those tests silently — then act only when one falls short.** This is what keeps it helpful, not nagging:
+- If an action already passes, **accept it and move on.** Don't polish what's already crisp or make them defend a good action — that's the annoying failure mode.
+- If it falls short, **don't just ask "can you be more specific?"** — that hands the work back to them. Propose a sharper version and let them react: _"Could we make that 'Rewrite the three opening slides' so it's obvious where you start?"_ One proposal, take their answer, move on.
+- Use the **resistance test** out loud only when it helps: _"Reading that on Wednesday, would you know your first move — or would you push it off / avoid it?"_ If they'd avoid it, break it down one level together.
+
+Then write each to the task source, **linked to this priority** if feasible in that source (use the priority's exact text as the grouping per the Task management block) and tagged with a priority label. Attach the done-criteria to the relevant action's notes proactively so they can test against it later.
 
 While defining actions, **don't ask "when will you do this?"** — sequencing questions are fine ("does this need to happen before the summit?") but calendar times wait for Step 3. Finish both "done" and Next Actions for Priority #1 before touching Priority #2. Don't define all the "dones" first and circle back — that creates needless context-switching.
 
