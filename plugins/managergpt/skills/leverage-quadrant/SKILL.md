@@ -36,7 +36,7 @@ Read `about-me.md` and **`org-and-team-context.md`** (their goals, and the compa
 The point isn't to do more — it's to concentrate your time on the top-left and give away as much of the right column as you can. Surfacing one or two big things to delegate is usually the highest-value outcome of the exercise.
 
 ## Output
-Show the quadrant filled in (offer a visual artifact if they'd like one, otherwise a simple table works). For everything in the **Delegate** box, offer to run a Clean Handoff right now. For the **Do** box, offer to block Deep Work time (or feed it into the next Weekly Preview) or ask if there are items here where they would prefer to hire someone and can use this as the start of a job description.
+Show the quadrant filled in (offer a visual artifact if they'd like one, otherwise a simple table works). For everything in the **Delegate** box, offer to run a Clean Handoff right now — and once handed off, **track it as a Waiting For** in their task source (who + By When, or the equivalent status per the Task management block), with any check-in as its own dated action; the `delegate-with-clean-handoffs` skill does this. For the **Do** box, offer to block Deep Work time (or feed it into the next Weekly Preview) or ask if there are items here where they would prefer to hire someone and can use this as the start of a job description.
 
 ## Cross-skill note
 This is the same Impact-vs-Ease/Ability lens the Weekly Preview uses in its delegation step. Pair with `delegate-with-clean-handoffs` to actually hand off what you decide to give away.

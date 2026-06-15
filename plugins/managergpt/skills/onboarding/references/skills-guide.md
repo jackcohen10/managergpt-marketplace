@@ -10,7 +10,7 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 
 | Skill | What it does |
 |---|---|
-| **Weekly Preview** | The core weekly ritual — close out the week, choose 2–3 defined outcomes, block Deep Work, delegate via Clean Handoffs. |
+| **Weekly Preview** | The core weekly ritual — close out the week, choose 2–3 defined outcomes, delegate via Clean Handoffs, then block Deep Work for what's left. |
 | **Plan My Day** | The daily ritual (Daily Defining) — availability after buffer, precise Next Actions tied to the week, decide the first move. |
 | **Clean Handoffs** | Delegation via the 5 W's (Who / What / By When / Where / Why). |
 | **Decline** | Drafts a meeting decline in the user's voice — protect Deep Work without burning the relationship (draft only; the user sends). |

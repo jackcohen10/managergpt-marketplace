@@ -129,7 +129,7 @@ As they answer, **write each priority to the task source immediately** (per the 
 
 ### Step 1.5 — Importance order (don't skip unless there's only one)
 
-Once 2–3 priorities are set, confirm the order before defining done. Show them numbered, then ask: **"Are these in order of importance? If you had to finish just one, which would it be?"** If they reorder, confirm the new numbered order. If they're equal, acknowledge it and weight them equally. This order drives which actions get the best calendar slots in Step 3.
+Once 2–3 priorities are set, confirm the order before defining done. Show them numbered, then ask: **"Are these in order of importance? If you had to finish just one, which would it be?"** If they reorder, confirm the new numbered order. If they're equal, acknowledge it and weight them equally. This order drives which actions get the best calendar slots when scheduling (Step 5).
 
 ### Step 2 — Define Done + Next Actions (the core coaching step — don't rush it)
 
@@ -160,25 +160,21 @@ Precise actions are what create momentum later: when it's time to do the work, a
 
 Then write each to the task source, **linked to this priority** if feasible in that source (use the priority's exact text as the grouping per the Task management block) and tagged with a priority label. Attach the done-criteria to the relevant action's notes proactively so they can test against it later.
 
-While defining actions, **don't ask "when will you do this?"** — sequencing questions are fine ("does this need to happen before the summit?") but calendar times wait for Step 3. Finish both "done" and Next Actions for Priority #1 before touching Priority #2. Don't define all the "dones" first and circle back — that creates needless context-switching.
+While defining actions, **don't ask "when will you do this?"** — sequencing questions are fine ("does this need to happen before the summit?") but calendar times wait for the scheduling step (Step 5, after delegation). Finish both "done" and Next Actions for Priority #1 before touching Priority #2. Don't define all the "dones" first and circle back — that creates needless context-switching.
 
-### Step 3 — Capacity check + calendar blocking
+### Step 3 — Capacity check
 
-After every priority has a definition and Next Actions, recap, check capacity, *then* propose times.
+After every priority has a definition and Next Actions, recap and check capacity *before* deciding what to delegate or schedule.
 
-**Recap format — not a table.** For each priority: show the priority title, then a one-line "Done:" recap of the finish line, then its actions as bullets showing just the action name and (Day). Don't repeat project names — they're already in the action.
+**Recap format — not a table.** For each priority: show the priority title, then a one-line "Done:" recap of the finish line, then its actions as bullets showing just the action name. Don't repeat project names — they're already in the action.
 
-**Track-record check.** Before proposing times, look at the weekly-review history. If a pattern emerges, name it — *one* observation, *one* question, then move on. E.g.: "Over the last few weeks you've completed about [X]% of planned actions, so let's be realistic about how much fits." Include a brief why: "I'm pushing back because I want you clear on what to expect of yourself and your time aligned to what matters most." Don't lecture.
+**Track-record check.** Look at the weekly-review history. If a pattern emerges, name it — *one* observation, *one* question, then move on. E.g.: "Over the last few weeks you've completed about [X]% of planned actions, so let's be realistic about how much fits." Include a brief why: "I'm pushing back because I want you clear on what to expect of yourself and your time aligned to what matters most." Don't lecture.
 
-**Capacity gate.** Only schedule actions tied to this week's priorities (not unrelated Today/Later items unless they ask). If the plan looks overloaded — from the track record or from calendar capacity — push back *before* suggesting times. Help them trim, scope down, or shift commitments, and only propose times once capacity is resolved.
+**Capacity gate.** Only commit to actions tied to this week's priorities (not unrelated Today/Later items unless they ask). If the plan looks overloaded — from the track record or from calendar capacity — push back *before* delegating or scheduling. Help them trim, scope down, or shift commitments before moving on.
 
-**Then schedule.** If calendar is connected, look at free slots and suggest a specific slot for each priority-linked action, Priority #1's actions first. Format as day headings (each on its own line, blank line after) with a continuous numbered list. If slots compete, the higher-priority action wins. If there isn't enough room, say so plainly and ask whether to push some commitments to next week or protect more time this week. If they push items to next week, show a numbered list, let them pick by number, confirm before moving, then re-show the trimmed plan. Once they accept, create the calendar blocks — **with confirmation before writing** (Cowork: Calendar MCP; Codex: have them block it, and note that connecting a calendar lets the Operating System judge capacity and suggest best-fit times).
+### Step 4 — Delegate (decide this *before* you block time)
 
-Help them protect the time when useful: how they'll communicate a Deep Work block, what criteria may override it, and how they'll decline requests that don't meet the bar. If a meeting or invite collides with a Deep Work block or doesn't serve a priority, **offer to draft the decline** (or hand off to the `decline` skill) using their saved decline voice in `working-style.md` ("Protecting time & declining"): if their preference is *verbatim*, use the saved script; if *match-my-voice*, write a fresh 1–2 sentence version in their tone (don't reuse the same wording each week — it sounds canned to the same colleagues). Always **show the draft for them to send — never send it automatically.** Offer this when they struggle to protect time — not every week.
-
-### Step 4 — Delegate
-
-Ask: **"What's on your list that could be done by someone else?"** Weigh candidates by **Impact vs. Ease/Ability** (this is the Leverage Quadrant lens — see the `leverage-quadrant` skill for the full version). For each thing they'll hand off, run the **Clean Handoff** (the 5 W's), drawing on `org-and-team-context.md`:
+Ask: **"What's on your list that could be done by someone else?"** Weigh candidates by **Impact vs. Ease/Ability** (the Leverage Quadrant lens — see the `leverage-quadrant` skill for the full version). **Do this before scheduling:** anything they hand off shouldn't take execution time on their own calendar — only a check-in does — so deciding delegation first keeps them from blocking time for work that's leaving their plate. For each thing they'll hand off, run the **Clean Handoff** (the 5 W's), drawing on `org-and-team-context.md`:
 
 - **Who** — the point person. (Ask who it should be or--if and only if confident--suggest someone based on what you know about their team; you can also proactively flag a task they didn't think to delegate.)
 - **What** — clarify *Done*. What does success look like? What's the level of uncertainty in this task, and what's their tolerance for quick failures?
@@ -197,6 +193,16 @@ Why:
 By When:
 Where:
 ```
+
+**Track every handoff so it doesn't fall through.** The moment something is delegated, write it to the task source tagged **Waiting For** — note *who* it's waiting on and the agreed *By When* — or the equivalent status in their system (per the Task management block: e.g. a "Waiting" status, an @owner + due date, a blocked/assigned label). If they set a check-in cadence, capture the **next check-in as its own dated action** — that check-in is the only part of a delegated item that earns a slot on *their* own calendar; the execution itself does not.
+
+### Step 5 — Schedule + protect the time
+
+Now block time for what's actually staying on their plate: the priority-linked actions they're keeping, plus any delegation check-ins. (Delegated execution work doesn't get a block — it's a Waiting For now.)
+
+**Schedule.** If calendar is connected, look at free slots and suggest a specific slot for each priority-linked action (and each check-in), Priority #1's actions first. Format as day headings (each on its own line, blank line after) with a continuous numbered list. If slots compete, the higher-priority action wins. If there isn't enough room, say so plainly and ask whether to push some commitments to next week or protect more time this week. If they push items to next week, show a numbered list, let them pick by number, confirm before moving, then re-show the trimmed plan. Once they accept, create the calendar blocks — **with confirmation before writing** (Cowork: Calendar MCP; Codex: have them block it, and note that connecting a calendar lets the Operating System judge capacity and suggest best-fit times).
+
+Help them protect the time when useful: how they'll communicate a Deep Work block, what criteria may override it, and how they'll decline requests that don't meet the bar. If a meeting or invite collides with a Deep Work block or doesn't serve a priority, **offer to draft the decline** (or hand off to the `decline` skill) using their saved decline voice in `working-style.md` ("Protecting time & declining"): if their preference is *verbatim*, use the saved script; if *match-my-voice*, write a fresh 1–2 sentence version in their tone (don't reuse the same wording each week — it sounds canned to the same colleagues). Always **show the draft for them to send — never send it automatically.** Offer this when they struggle to protect time — not every week.
 
 ### Carry-forward
 

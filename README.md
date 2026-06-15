@@ -7,7 +7,7 @@ A one-plugin marketplace for the **ManagerGPT** cohort course. It installs a sin
 One plugin, `managergpt`, containing:
 
 - **`onboarding`** — the front door. Personalizes the OS the way you'd onboard a new colleague: Hire → Onboard → Intake → Gossip, then a Test Drive and automatic setup of your rituals.
-- **`weekly-preview`** — the core weekly planning ritual (close out the week, choose defined outcomes, block Deep Work, delegate).
+- **`weekly-preview`** — the core weekly planning ritual (close out the week, choose defined outcomes, delegate, then block Deep Work for what's left).
 - **`plan-my-day`** — Daily Defining: what today is really for, after your buffer.
 - **`delegate-with-clean-handoffs`** — delegate cleanly with the 5 W's.
 - **`decline`** — draft a meeting decline in your voice; protect Deep Work without burning the relationship.

@@ -43,5 +43,9 @@ Where:
 
 Keep the Why motivating and specific — it's what makes the person *want* to own it.
 
+## Track it after the handoff
+
+Once the handoff goes out, **log it so it doesn't disappear from the user's view.** Write the delegated item to their task source tagged **Waiting For** — noting *who* it's waiting on and the agreed *By When* — or the equivalent in their system (per the Task management block in `working-style.md`: a "Waiting" status, an @owner + due date, a blocked/assigned label). If they set a check-in cadence, add the **next check-in as its own dated action** on their list — that's the only piece of a delegated item that belongs on the user's own calendar; the execution itself stays a Waiting For until it's done.
+
 ## Cross-skill note
 This is the same Clean Handoff the Weekly Preview uses in its delegation step. To decide *what* is even worth delegating versus doing yourself, pair with `leverage-quadrant`.
