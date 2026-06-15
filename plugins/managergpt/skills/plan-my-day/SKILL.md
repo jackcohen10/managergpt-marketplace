@@ -70,6 +70,8 @@ Ask **one question at a time.** Wait for a complete answer before moving on.
 
 Then let them know what's on today's calendar (meetings) and how much time that actually leaves after subtracting their buffer. Don't define the day to 100% of available time — that's exactly the Charlie trap.
 
+If today's meetings are eating the buffer or a Deep Work block, you can **offer to draft a quick decline** using their saved decline voice in `working-style.md` ("Protecting time & declining") — verbatim if that's their preference, otherwise a fresh 1–2 sentence version in their tone. Show it for them to send; never send it automatically. Keep it optional and light — don't turn the daily ritual into calendar triage.
+
 ### 2. Define the actions (get granular)
 
 Ask: **"What are the most impactful things you could do today? Get specific."**

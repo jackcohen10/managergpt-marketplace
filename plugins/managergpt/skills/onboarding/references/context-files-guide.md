@@ -68,6 +68,13 @@ This is the heart of the OS. It always has three sections: **Outer Game**, **Inn
 - Communication style: [tone, verbosity, preamble preferences]
 - Clean-handoff triggers: [what kinds of work they tend to delegate]
 
+### Protecting time & declining
+- Decline preference: [verbatim — reuse my saved words | match-my-voice — keep my tone, vary the wording | ask me each time]
+- My decline voice (the scripts they chose/wrote on Day 1 — kept as a *tone reference*, not necessarily reused word-for-word):
+  - [script 1]
+  - [script 2]
+- When to use: [e.g., invites that collide with a Deep Work block; meetings that don't serve a weekly priority — offer async support instead of a flat no]
+
 ### Task management
 [The Task management block — where tasks live, how they're structured, how their
 statuses map to: Today / Later / Someday-Maybe / Waiting For / Done. See
@@ -108,6 +115,7 @@ self-check-ins.]
 - "How do you like deliverables — markdown, docs, decks? Different by task?"
 - "How should I communicate with you — concise and direct, or more detail? Plan first, or just go on simple things?"
 - "What kinds of things do you tend to hand off to others?"
+- **Decline language + preference.** If their Day-1 doc has the meeting-decline scripts they chose, pull them in; if not, ask for one or two. Then ask how they want the OS to use them: *"When I help you decline a meeting or protect Deep Work, do you want me to (a) reuse these exact words, or (b) just match this voice and write a fresh version each time — so it doesn't sound canned to the same colleagues over time?"* Recommend (b). If they pick (b), show **one or two fresh sample declines (1–2 sentences each)** in their voice so they can confirm the tone, then save the preference plus their examples as the reference. Store under "Protecting time & declining."
 - (Planning cadence and Task management/buffer come from Hire — carry them in.)
 
 **Inner Game** (go gently; this is where the real value is)

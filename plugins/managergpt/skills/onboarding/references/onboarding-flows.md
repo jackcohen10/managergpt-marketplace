@@ -124,7 +124,7 @@ Invite their existing material across five layers — Company & strategy, Org pr
 
 ### 5.2 Generate about-me.md, org-and-team-context.md, working-style.md (3 sections), brand-voice.md
 
-Run the interviews and build the files per `context-files-guide.md`. `working-style.md` always has **Outer Game**, **Inner Game**, and **Both — Habits & Rituals**. `org-and-team-context.md` where there's a company/org around them (skip if solo). `brand-voice.md` only if their role involves external content.
+Run the interviews and build the files per `context-files-guide.md`. `working-style.md` always has **Outer Game**, **Inner Game**, and **Both — Habits & Rituals**. While building the Outer Game, pull the **meeting-decline language** from their Day-1 doc and ask the **verbatim-vs-match-my-voice** preference (show 1–2 fresh sample declines if they pick match-my-voice), storing both under "Protecting time & declining." `org-and-team-context.md` where there's a company/org around them (skip if solo). `brand-voice.md` only if their role involves external content.
 
 ### 5.3 The Gap Check (don't skip)
 

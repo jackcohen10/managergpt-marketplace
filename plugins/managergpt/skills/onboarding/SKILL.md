@@ -167,7 +167,7 @@ Identity, role, professional background, the businesses/projects they run, and t
 
 ### Generate working-style.md — THREE sections
 
-- **Outer Game:** weekly preview cadence, daily defining cadence, the daily buffer (from Hire), output formats, communication style, clean-handoff triggers, and the **Task management block** (from Hire).
+- **Outer Game:** weekly preview cadence, daily defining cadence, the daily buffer (from Hire), output formats, communication style, clean-handoff triggers, **decline language + preference** (their Day-1 meeting-decline scripts, and whether the OS reuses them verbatim or just matches the voice — see `context-files-guide.md`), and the **Task management block** (from Hire).
 - **Inner Game:** their Re-Actor patterns, the difficult emotions that recur and what each signals, what they want to embody, and their Catching practices — plus (the Personal layer of the Context Library, optional and sensitive) recent feedback / review themes they want to keep monitoring and the leadership/scaling wisdom they've bookmarked but forget to apply in the moment.
 - **Both — Habits & Rituals:** patterns that involve both games at once.
 

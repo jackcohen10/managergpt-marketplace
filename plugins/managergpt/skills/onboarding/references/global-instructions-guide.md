@@ -11,7 +11,7 @@ Keep it **dense and under ~800 words.**
 ## Structure
 
 1. **Who I am** (2–3 sentences) — name, role, what they lead.
-2. **How I work** (3–5 bullets) — planning cadence, task approach, communication style. Pull from the Outer Game.
+2. **How I work** (3–5 bullets) — planning cadence, task approach, communication style. Pull from the Outer Game. If they set a decline preference, add one line: e.g. *"When drafting a meeting decline, match my voice (see working-style.md) and write a fresh version — show it before I send; never send automatically."*
 3. **Output defaults** (3–4 bullets) — formats by task type.
 4. **Voice** (2–4 sentences) — only if `brand-voice.md` exists.
 5. **Key context** (2–4 bullets) — their goals, the frameworks the OS uses with them (Re-Actor → Author, Weekly Preview, Clean Handoffs, etc.), key terms.
