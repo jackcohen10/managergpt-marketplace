@@ -46,6 +46,8 @@ Ask these four, **one at a time**, only moving on once each is answered well:
 3. **What have you observed them doing, and what impacts has that had** on you or others? *(Push observations, not judgments.)*
 4. **What have YOU done or failed to do that contributed to this dynamic?**
 
+**Don't ask a question cold if they've already answered it.** If they surfaced material for any of these earlier in the conversation — especially question 4, where people often name their own part while venting — **reflect it back first, then ask them to refine rather than regenerate:** *"Earlier you named two things — [X] and [Y]. Want to start there? Where's that on or off target, and what would you add?"* Reflecting what they already said builds trust and saves them re-doing work; asking it cold makes them feel unheard.
+
 Then craft the feedback in natural, human language, and — because it's a conversation — weave in questions, especially after each section. Output it broken into:
 - **Goal**
 - **My actions and impacts**
