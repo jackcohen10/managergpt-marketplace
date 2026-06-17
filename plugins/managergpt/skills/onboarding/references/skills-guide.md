@@ -21,6 +21,7 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 | **GROW Coaching** | Rehearse / prep / debrief coaching — empowering questions + GROW (you do it live). |
 | **Meta-Prompt** | Creates and improves prompts. |
 | **Tiny Habit** | BJ Fogg after / I-will / celebrate habit design. |
+| **Retrospective (Tune Your OS)** | The self-improvement loop — reviews the user's history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs as the monthly check-in. |
 
 These are the skills that embody the ManagerGPT frameworks. The planning and interpersonal ones read `working-style.md` and check the Familiar flag.
 

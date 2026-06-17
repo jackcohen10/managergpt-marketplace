@@ -18,6 +18,7 @@ One plugin, `managergpt`, containing:
 - **`coaching-grow`** — rehearse, prep, and debrief coaching (empowering questions + GROW).
 - **`meta-prompt`** — create and improve prompts.
 - **`tiny-habit`** — make a new behavior stick (BJ Fogg).
+- **`retrospective`** — the self-improvement loop: reviews your history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs monthly.
 - **`protect`** — an optional security review of your setup.
 
 Each is invocable as `/managergpt:<skill>` (e.g. `/managergpt:onboarding`, `/managergpt:weekly-preview`, `/managergpt:protect`) — or just by asking.
@@ -58,6 +59,7 @@ managergpt-marketplace/
             ├── coaching-grow/
             ├── meta-prompt/
             ├── tiny-habit/
+            ├── retrospective/
             └── protect/
 ```
 

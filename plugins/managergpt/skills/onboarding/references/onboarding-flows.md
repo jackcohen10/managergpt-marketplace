@@ -107,7 +107,7 @@ Routing:
 
 Say the intro line: *"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."*
 
-- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit). Name what they now have in one or two sentences.
+- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective). Name what they now have in one or two sentences.
 - Tell them their Global Instructions get written at the end of Intake, from what's learned — so they're personal, not boilerplate.
 
 ---
@@ -165,7 +165,7 @@ Open: *"Welcome to your personalized AI operating system…"* Then set up the ri
 
 - **Weekly Preview.** Walk the **timing table** interactively and let them choose (default **Sunday 8 PM**); tell them to also block it as a recurring calendar event. A scheduled run **drafts and notifies** — it never runs the full interview unattended.
 - **Plan My Day.** Ask **when** (weekday mornings or evenings) and tie it to an existing habit.
-- **Monthly context check-in** — last Friday of the month; re-reads context files, asks what changed, and **re-runs the task-management discovery**.
+- **Monthly retrospective (Tune Your OS)** — last Friday of the month; runs the `retrospective` skill: reviews the last few weeks, surfaces patterns, and proposes confirmation-gated `working-style.md` tweaks, plus the currency check (what changed, re-run task discovery). Draft-and-notify when scheduled — never applies changes unattended.
 
 Then mention: *"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."* See `scheduled-tasks-guide.md` for the draft-and-notify prompt pattern, the timing table, and cron reference.
 

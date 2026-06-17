@@ -57,13 +57,20 @@ when I run it myself.
 Schedule: weekday mornings (0 8 * * 1-5) — or the time they chose
 ```
 
-### 3. Monthly context check-in
+### 3. Monthly retrospective (Tune Your OS)
+Runs the `retrospective` skill — the self-improvement loop. It reviews the last few weeks and proposes confirmation-gated tweaks to `working-style.md`, and still does the currency check the old monthly review did.
 ```
-Prompt: Read my CONTEXT/ files and summarize each. Ask what's changed — new projects,
-dropped tools, changed preferences, new people. Re-run the task-management discovery
-query (working-style.md) and update the Task management block if my tool or
-conventions changed. Save a brief log to the OS Project. Update files only with my
-confirmation; never delete.
+Prompt: Run the Retrospective skill in scheduled DRAFT mode. Read my context files and
+my history across the last few weeks — weekly-review history, plan records, task
+completion (including anything carried 3+ weeks and Waiting For), calendar adherence,
+and /familiar if set. Spot patterns: buffer accuracy, completion rate, repeatedly
+deferred or delegable work, recurring Re-Actor behaviors/voices, Deep Work protection.
+Also note what's changed (new projects, dropped tools, new people) and whether the
+task-management mapping still holds. Draft the findings and a few proposed
+working-style.md tweaks, save the draft to the OS Project, and notify me in plain
+language: "I reviewed the last few weeks and have a few small tweaks to suggest — type
+'tune my OS' to go through them together." This run is unattended, so draft only: do
+not change any context file or apply changes (no one is present to confirm).
 Schedule: last Friday of the month (0 9 24-31 * 5)
 ```
 

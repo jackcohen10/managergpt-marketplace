@@ -20,10 +20,11 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:coaching-grow` | Rehearse, prep, and debrief coaching — empowering questions + GROW. |
 | `/managergpt:meta-prompt` | Create and improve prompts. |
 | `/managergpt:tiny-habit` | Make a new behavior stick (BJ Fogg). |
+| `/managergpt:retrospective` | Tune your OS — review your history, spot patterns, update working-style.md. Runs monthly. |
 | `/managergpt:protect` | Optional security review of your setup. |
 
 ## How it fits together
 
-`onboarding` writes your context files — `about-me.md`, `working-style.md` (Outer Game / Inner Game / Both), `org-and-team-context.md`, and (for external-facing roles) `brand-voice.md` — plus your Global Instructions. The planning skills read `working-style.md` to find where your tasks live and how much buffer to leave; the interpersonal skills draw on your Inner Game and (if installed) Familiar. Everything runs in **Claude Cowork** and **Codex**.
+`onboarding` writes your context files — `about-me.md`, `working-style.md` (Outer Game / Inner Game / Both), `org-and-team-context.md`, and (for external-facing roles) `brand-voice.md` — plus your Global Instructions. The planning skills read `working-style.md` to find where your tasks live and how much buffer to leave; the interpersonal skills draw on your Inner Game and (if installed) Familiar. `retrospective` closes the loop — it reads what the planning skills recorded over time and proposes updates back to `working-style.md`, so the OS tunes itself to you. Everything runs in **Claude Cowork** and **Codex**.
 
 Built for the ManagerGPT Maven cohort.

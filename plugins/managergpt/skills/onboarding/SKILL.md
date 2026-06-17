@@ -128,7 +128,7 @@ See `task-management-guide.md` for the discovery queries and the block format.
 
 Intro line (say this): **"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."**
 
-- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
+- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
 - Tell them their **Global Instructions** get written at the end of Intake, from everything learned — so they're personalized, not generic.
 
 **Phase confirmation:** confirm the bundle installed, then move to Intake.
@@ -241,7 +241,7 @@ Then set up the recurring rituals **by default — don't ask whether, only when.
 
 - **Weekly Preview.** This timing is a real decision — walk them through the timing table interactively (Friday 8 AM / Friday 3 PM / Sunday 8 PM / Monday 8 AM / custom) and let them choose; default **Sunday 8 PM**. Tell them to also block it as a recurring calendar event. Remember a scheduled run **drafts a starting point and notifies them to finish interactively** — it does not run the full interview unattended.
 - **Plan My Day (Daily Defining).** Ask **when** they want it — weekday mornings or evenings — and tie it to an existing habit.
-- **Monthly context check-in.** Last Friday of the month. It re-reads the context files, asks what's changed, and **re-runs the task-management discovery** so the mapping stays accurate.
+- **Monthly retrospective (Tune Your OS).** Last Friday of the month. Runs the `retrospective` skill — the OS's self-improvement loop: it reviews the last few weeks of history, surfaces patterns (buffer accuracy, completion rate, repeatedly-deferred or delegable work, recurring Re-Actor habits, Deep Work protection), and proposes **confirmation-gated** tweaks to `working-style.md` — and still does the currency check (what's changed, re-run the task-management discovery).
 
 Then mention the optional add-on: **"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."**
 
