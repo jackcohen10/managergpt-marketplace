@@ -165,7 +165,7 @@ Open: *"Welcome to your personalized AI operating system…"* Then set up the ri
 
 - **Weekly Preview.** Walk the **timing table** interactively and let them choose (default **Sunday 8 PM**); tell them to also block it as a recurring calendar event. A scheduled run **drafts and notifies** — it never runs the full interview unattended.
 - **Plan My Day.** Ask **when** (weekday mornings or evenings) and tie it to an existing habit.
-- **Monthly retrospective (Tune Your OS)** — last Friday of the month; runs the `retrospective` skill: reviews the last few weeks, surfaces patterns, and proposes confirmation-gated `working-style.md` tweaks, plus the currency check (what changed, re-run task discovery). Draft-and-notify when scheduled — never applies changes unattended.
+- **Retrospective (Tune Your OS)** — the self-improvement loop. Main cadence: **every other Weekly Preview** (the preview offers it). Plus a **monthly backstop** scheduled task (last Friday) that runs only if none happened that month. Reviews recent history, surfaces patterns, proposes confirmation-gated `working-style.md` tweaks, and does the currency check (what changed, re-run task discovery). Draft-and-notify when scheduled — never applies changes unattended.
 
 Then mention: *"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."* See `scheduled-tasks-guide.md` for the draft-and-notify prompt pattern, the timing table, and cron reference.
 

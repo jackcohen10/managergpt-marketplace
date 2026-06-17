@@ -57,15 +57,18 @@ when I run it myself.
 Schedule: weekday mornings (0 8 * * 1-5) — or the time they chose
 ```
 
-### 3. Monthly retrospective (Tune Your OS)
-Runs the `retrospective` skill — the self-improvement loop. It reviews the last few weeks and proposes confirmation-gated tweaks to `working-style.md`, and still does the currency check the old monthly review did.
+### 3. Monthly retrospective backstop (Tune Your OS)
+Runs the `retrospective` skill — the self-improvement loop. The **main** cadence is every other Weekly Preview (the preview offers it). This scheduled task is only a **floor**: it makes sure a retrospective happens at least once a month even if previews were sparse, and it **skips itself** if one already ran this month.
 ```
-Prompt: Run the Retrospective skill in scheduled DRAFT mode. Read my context files and
-my history across the last few weeks — weekly-review history, plan records, task
-completion (including anything carried 3+ weeks and Waiting For), calendar adherence,
-and /familiar if set. Spot patterns: buffer accuracy, completion rate, repeatedly
-deferred or delegable work, recurring Re-Actor behaviors/voices, Deep Work protection.
-Also note what's changed (new projects, dropped tools, new people) and whether the
+Prompt: Monthly retrospective backstop. FIRST check weekly-reviews/ for a retro-*.md
+dated in the current calendar month. If one exists, do nothing and send no
+notification — a retrospective already happened this month. Otherwise, run the
+Retrospective skill in scheduled DRAFT mode: read my context files and my history
+across the last few weeks — weekly-review history, plan records, task completion
+(including anything carried 3+ weeks and Waiting For), calendar adherence, and
+/familiar if set. Spot patterns: buffer accuracy, completion rate, repeatedly deferred
+or delegable work, recurring Re-Actor behaviors/voices, Deep Work protection. Also note
+what's changed (new projects, dropped tools, new people) and whether the
 task-management mapping still holds. Draft the findings and a few proposed
 working-style.md tweaks, save the draft to the OS Project, and notify me in plain
 language: "I reviewed the last few weeks and have a few small tweaks to suggest — type

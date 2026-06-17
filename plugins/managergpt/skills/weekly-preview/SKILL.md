@@ -212,6 +212,8 @@ When starting a new week, check for incomplete actions from prior priorities. Me
 
 Write the final priorities, definitions, and Next Actions to the task source, tagged with the user's labels, with the 2–3 outcomes set as "This Week's Priorities" in importance order. Save the weekly plan record to the history. Reflect the shift back to them plainly: they walked in with a pile of open loops and walk out with a short list of outcomes they chose, defined, and protected. That's Re-Actor → Author.
 
+**Every other preview, offer a retrospective.** After saving the plan record, check the retro log (`weekly-reviews/retro-*.md`) for the date of the last retrospective, and count how many plan records exist since then. If this is the **second** preview since the last retrospective (and there's at least ~3 weeks of history), offer it lightly: *"It's been a couple of weeks of planning — want a quick OS retrospective to spot patterns and tune your setup? Takes a few minutes, or I can leave it for the monthly one."* If yes, hand to the `retrospective` skill; if no, drop it — the monthly backstop will catch it. Don't offer it every week, and never force it.
+
 ---
 
 ## Coaching stance (what separates this from task management)

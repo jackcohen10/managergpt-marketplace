@@ -25,10 +25,19 @@ The spirit: an honest, kind coach reviewing the tape with them — naming patter
 - Both schedule: Cowork `create_scheduled_task`; Codex automations from Chat. **This skill is what the monthly check-in runs.**
 - The OS lives in one Project; history lives in `weekly-reviews/` and the plan records.
 
+## When it runs (cadence)
+
+Two triggers, one shared record so they never double-run:
+
+- **Every other Weekly Preview (the main cadence).** At the close of a Weekly Preview, the planning skill checks how many previews have happened since the last retrospective; on every second one, it offers this skill. That keeps the loop tied to how much new history actually exists.
+- **Monthly backstop (a floor, not an addition).** A scheduled task on the **last Friday of the month** checks whether a retrospective has already run this calendar month. If one has, it does nothing. If none has, it runs in draft-and-notify mode — so you never go more than a month without a tune-up even if Weekly Previews were sparse.
+
+Both read the **retro log** (`weekly-reviews/retro-YYYY-MM-DD.md`, written each time this skill completes) to know when the last retrospective happened. Always write that log on completion so both triggers stay in sync.
+
 ## Two ways this runs
 
-- **Interactive (default).** The user triggered it — run the full review below.
-- **Scheduled / unattended (the monthly check-in).** It fires whether or not the user is there, so don't run the interview and don't apply anything. Read the data, **draft** the findings and proposed tweaks, save the draft to the OS Project, and notify in plain language: *"I reviewed the last few weeks and have a few small tweaks to suggest for your OS — type 'tune my OS' to go through them together."* Never write to context files or apply changes unattended (no one is present to confirm).
+- **Interactive (default).** The user triggered it (on demand, or via the every-other-Weekly-Preview offer) — run the full review below.
+- **Scheduled / unattended (the monthly backstop).** It fires whether or not the user is there, so don't run the interview and don't apply anything. **First check for a `retro-*.md` dated in the current month — if one exists, do nothing and don't notify.** Otherwise read the data, **draft** the findings and proposed tweaks, save the draft to the OS Project, and notify in plain language: *"I reviewed the last few weeks and have a few small tweaks to suggest for your OS — type 'tune my OS' to go through them together."* Never write to context files or apply changes unattended (no one is present to confirm).
 
 ## Before you start — gather the data
 
@@ -65,7 +74,7 @@ Lead with a one-line summary, then the **2–4 patterns that actually showed up*
 - **One proposal at a time.** Don't stack. Let them react — they may reframe or decline, and that's fine.
 - **Apply only on an explicit yes.** When they approve a change, write it to `working-style.md` and **show the diff** (the before/after of that block). Never rewrite silently.
 - **Hand off where it fits:** `tiny-habit` (a recurring behavior), `leverage-quadrant` / `delegate-with-clean-handoffs` (a repeated handoff candidate), `decline` (protection), `inner-dialogue` (a charged pattern).
-- **Close by saving a brief retro log** to the OS Project — what you observed, what changed, what they chose to leave — so the next retrospective builds on it.
+- **Close by saving the retro log** as `weekly-reviews/retro-YYYY-MM-DD.md` (today's date) — what you observed, what changed, what they chose to leave. This file is also the timestamp both triggers use, so always write it, even if no change was applied.
 
 ## Hard rules
 
