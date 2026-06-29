@@ -107,7 +107,7 @@ Routing:
 
 Say the intro line: *"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."*
 
-- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective). Name what they now have in one or two sentences.
+- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective, Capture). Name what they now have in one or two sentences.
 - Tell them their Global Instructions get written at the end of Intake, from what's learned — so they're personal, not boilerplate.
 
 ---
@@ -168,6 +168,8 @@ Open: *"Welcome to your personalized AI operating system…"* Then set up the ri
 - **Retrospective (Tune Your OS)** — the self-improvement loop. Main cadence: **every other Weekly Preview** (the preview offers it). Plus a **monthly backstop** scheduled task (last Friday) that runs only if none happened that month. Reviews recent history, surfaces patterns, proposes confirmation-gated `working-style.md` tweaks, and does the currency check (what changed, re-run task discovery). Draft-and-notify when scheduled — never applies changes unattended.
 
 Then mention: *"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."* See `scheduled-tasks-guide.md` for the draft-and-notify prompt pattern, the timing table, and cron reference.
+
+Point to the capture skill: *"Your TEMPLATES/ folder fills itself over time. After any session that produces something worth repeating, say `/managergpt:capture` — it strips the content to a reusable template, or turns a working process into an installable skill."*
 
 ---
 

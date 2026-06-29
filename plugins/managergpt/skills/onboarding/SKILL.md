@@ -128,7 +128,7 @@ See `task-management-guide.md` for the discovery queries and the block format.
 
 Intro line (say this): **"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."**
 
-- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
+- **Confirm the companion skill set is active.** The whole Operating System ships as one plugin, so these came with it — nothing to install: Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective, Capture. Briefly name what they've got, and that they can call any of them with `/managergpt:<skill>` or just by asking.
 - Tell them their **Global Instructions** get written at the end of Intake, from everything learned — so they're personalized, not generic.
 
 **Phase confirmation:** confirm the bundle installed, then move to Intake.
@@ -244,6 +244,8 @@ Then set up the recurring rituals **by default — don't ask whether, only when.
 - **Retrospective (Tune Your OS) — the self-improvement loop.** Its main cadence is **every other Weekly Preview** (the preview offers it when ~2 previews have passed since the last one). Set up a **monthly backstop** scheduled task (last Friday) that runs it only if none happened that month — so a tune-up happens at least monthly even if previews were sparse. It reviews recent history, surfaces patterns (buffer accuracy, completion rate, deferred/delegable work, recurring Re-Actor habits, Deep Work protection), proposes **confirmation-gated** tweaks to `working-style.md`, and does the currency check (what's changed, re-run the task-management discovery).
 
 Then mention the optional add-on: **"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."**
+
+Finally, point to the TEMPLATES/ folder: **"Your TEMPLATES/ folder fills itself over time. After any session that produces something worth repeating, say `/managergpt:capture` — it strips the content, keeps the structure, and saves it there. Same command to turn a working process into an installable skill."**
 
 See `scheduled-tasks-guide.md` for the draft-and-notify prompt pattern and cron reference.
 

@@ -22,6 +22,7 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 | **Meta-Prompt** | Creates and improves prompts. |
 | **Tiny Habit** | BJ Fogg after / I-will / celebrate habit design. |
 | **Retrospective (Tune Your OS)** | The self-improvement loop — reviews the user's history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs as the monthly check-in. |
+| **Capture** | Saves what just worked — strips a deliverable to a reusable template in TEMPLATES/, or reconstructs the steps as an installable skill via skill-creator. Say `/managergpt:capture` after any session that produced something worth repeating. |
 
 These are the skills that embody the ManagerGPT frameworks. The planning and interpersonal ones read `working-style.md` and check the Familiar flag.
 

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cat ~/.familiar/settings.json 2>/dev/null | head -50; echo \"---SETTINGS END---\")",
+      "Bash(ROOT=\"/Users/jackadamcohen/Dropbox/Copilot/familiar/stills-markdown\"; echo \"=== Sessions per day \\(last 21 days\\) ===\"; ls -1 \"$ROOT\" | sed -E 's/session-\\([0-9]{4}-[0-9]{2}-[0-9]{2}\\).*/\\\\1/' | sort | uniq -c | tail -21)"
+    ]
+  }
+}

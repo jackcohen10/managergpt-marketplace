@@ -56,6 +56,8 @@ Default (**read/write with confirmation**):
 - If I haven't selected a Project, suggest opening the OS Project.
 - If something in conversation contradicts CONTEXT/ (a new project, a dropped tool, a
   changed preference), flag it and offer to update — show the diff first.
+- After saving any deliverable to OUTPUTS/, end with: "Saved. If that structure or
+  process worked well, say `/managergpt:capture` to keep it."
 ```
 
 **Read-only source folders** variant: CONTEXT/PROJECTS/TEMPLATES are read-only (only the user edits them); only OUTPUTS/ is writable. **Full read/write** variant: all folders writable, but the hard delete rule and "deliver to OUTPUTS/ by default" still hold. Keep the OS Project line and the delete rule in every variant.
