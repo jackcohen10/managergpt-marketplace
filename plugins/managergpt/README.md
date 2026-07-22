@@ -21,6 +21,8 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:meta-prompt` | Create and improve prompts. |
 | `/managergpt:tiny-habit` | Make a new behavior stick (BJ Fogg). |
 | `/managergpt:retrospective` | Tune your OS — review your history, spot patterns, update working-style.md. Runs monthly. |
+| `/managergpt:capture` | Save what just worked — a reusable template, or a new installable skill. |
+| `/managergpt:practice` | A ~2-minute daily rep to keep the skills alive (post-course retention). |
 | `/managergpt:protect` | Optional security review of your setup. |
 
 ## How it fits together

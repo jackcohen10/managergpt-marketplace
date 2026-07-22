@@ -107,7 +107,7 @@ Routing:
 
 Say the intro line: *"Now we give your Operating System its standing instructions — what to do every time you use it or it takes action."*
 
-- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective, Capture). Name what they now have in one or two sentences.
+- **Auto-install the companion bundle — don't ask, just install** (Weekly Preview, Plan My Day, Clean Handoffs, Decline, Leverage Quadrant, Inner Dialogue, Catching, GAIN Feedback, GROW Coaching, Meta-Prompt, Tiny Habit, Retrospective, Capture, Daily Practice). Name what they now have in one or two sentences.
 - Tell them their Global Instructions get written at the end of Intake, from what's learned — so they're personal, not boilerplate.
 
 ---

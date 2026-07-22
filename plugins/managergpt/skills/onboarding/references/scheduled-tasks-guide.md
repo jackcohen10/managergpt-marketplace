@@ -79,6 +79,19 @@ Schedule: last Friday of the month (0 9 24-31 * 5)
 
 ---
 
+### 4. Daily Practice (post-course retention — optional)
+Runs the `practice` skill — a ~2-minute rep that keeps the course skills warm. Designed to start **after the course**: daily for ~2 weeks, then taper to weekly. Anchor it to a reliable time the user picks.
+```
+Prompt: Run the Practice skill in scheduled mode. Pick one 2-minute rep — adaptive to
+what's live in my day (a charged message, a hard conversation coming up), falling back
+to a rotation across the skills; use real material if available, else ask me for one
+moment. Present just today's rep in a short message and invite me to do it — e.g.
+"2-min practice: [rep]. Reply when you're ready." Keep it to one rep, ~2 minutes; never
+run a long session, and never act on the real message I'm practicing on.
+Schedule: a reliable daily time the user chooses (e.g. 0 8 * * 1-5) for ~2 weeks, then
+switch to weekly.
+```
+
 ## Cron quick reference (local time, not UTC)
 
 | Schedule | Cron |

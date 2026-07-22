@@ -48,6 +48,12 @@ Ask these four, **one at a time**, only moving on once each is answered well:
 
 **Don't ask a question cold if they've already answered it.** If they surfaced material for any of these earlier in the conversation — especially question 4, where people often name their own part while venting — **reflect it back first, then ask them to refine rather than regenerate:** *"Earlier you named two things — [X] and [Y]. Want to start there? Where's that on or off target, and what would you add?"* Reflecting what they already said builds trust and saves them re-doing work; asking it cold makes them feel unheard.
 
+**After question 4, offer to widen the lens on their own contribution.** People usually see one or two of their contributions; naming more gives them more levers to pull. Ask:
+
+> "I want to help you identify all the possible levers for change so you have more leverage to get what you want here. Can I suggest some possible contributions?"
+
+If they say yes, offer **1–5 possibilities** (it doesn't have to be 5) as a **numbered list** — concrete, non-judgmental guesses about what they might be doing or not doing that feeds the dynamic. Then close with something like: *"I don't have full context, so you'll need to sense whether any of these are actually on target. Do any resonate?"* Take whatever lands, and move on — don't defend the list or push the ones they don't take.
+
 Then craft the feedback in natural, human language, and — because it's a conversation — weave in questions, especially after each section. Output it broken into:
 - **Goal**
 - **My actions and impacts**

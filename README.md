@@ -19,6 +19,8 @@ One plugin, `managergpt`, containing:
 - **`meta-prompt`** — create and improve prompts.
 - **`tiny-habit`** — make a new behavior stick (BJ Fogg).
 - **`retrospective`** — the self-improvement loop: reviews your history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs monthly.
+- **`capture`** — save what just worked as a reusable template, or turn a working process into an installable skill.
+- **`practice`** — a ~2-minute daily rep that keeps the course skills alive (post-course retention).
 - **`protect`** — an optional security review of your setup.
 
 Each is invocable as `/managergpt:<skill>` (e.g. `/managergpt:onboarding`, `/managergpt:weekly-preview`, `/managergpt:protect`) — or just by asking.
@@ -60,6 +62,8 @@ managergpt-marketplace/
             ├── meta-prompt/
             ├── tiny-habit/
             ├── retrospective/
+            ├── capture/
+            ├── practice/
             └── protect/
 ```
 
