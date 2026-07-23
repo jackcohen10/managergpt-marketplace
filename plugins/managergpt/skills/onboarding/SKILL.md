@@ -8,8 +8,11 @@ description: >
   Onboard, Intake, Gossip — then a live Test Drive and automatic automation setup.
   Produces the workspace folders, connected tools, a task-management mapping,
   about-me.md, a three-part working-style.md (Outer Game / Inner Game / Both),
-  org-and-team-context.md, Global Instructions, and scheduled rituals. Runs in Claude Cowork
-  and Codex.
+  org-and-team-context.md, Global Instructions, and scheduled rituals. Also keeps an
+  already-set-up OS current after a plugin update — use when someone says "review and
+  update my scheduled rituals," "sync my automations," "reconcile my rituals," or
+  "update my scheduled tasks": it audits existing scheduled tasks and adds or updates
+  whatever changed. Runs in Claude Cowork and Codex.
 version: 0.1.0
 ---
 
@@ -53,11 +56,29 @@ Read the detailed flows before running a phase: `@${CLAUDE_PLUGIN_ROOT}/skills/o
 2. **Scan what already exists** in the folder: the `CONTEXT/PROJECTS/TEMPLATES/OUTPUTS` structure, context files (`about-me.md`, `working-style.md`, `org-and-team-context.md`), connected tools, installed companion skills, scheduled tasks.
 3. **Route:**
    - **First-time (no context files):** offer **Full Setup** (the four-phase onboarding, ~30–45 min), **Quickstart** (~15 min — minimal workspace + a short about-me + standing instructions), or **help with one specific thing**.
-   - **Returning (files/config exist):** offer a full refresh, update specific pieces, run the Test Drive again, or get help with something specific. Read existing files first and present current values as defaults.
+   - **Returning (files/config exist):** offer a full refresh, update specific pieces, run the Test Drive again, **reconcile scheduled rituals** (after a plugin update — see "Reconcile scheduled rituals" below), or get help with something specific. Read existing files first and present current values as defaults.
+   - **If the request is specifically about scheduled rituals/automations** ("review and update my scheduled rituals," "sync my automations"), skip straight to **Reconcile scheduled rituals** below — don't run the full onboarding.
 
 For Full Setup, open with this exactly:
 
 > "We're going to personalize your Operating System the same way you'd onboard a new colleague. Four phases: Hire, Onboard, Intake, and Gossip (tell me about your colleagues), then you'll test drive it. About 30-45 minutes total. I save progress as we go, so you can pause anytime. Ready?"
+
+---
+
+## Reconcile scheduled rituals (returning users — after a plugin update)
+
+Plugin updates refresh the skill *files*, but **already-created scheduled tasks keep their original prompts** — a refresh doesn't migrate them. So when an already-onboarded user runs `/plugin marketplace update` and then asks to **"review and update my scheduled rituals"** (or similar), don't re-run onboarding — just reconcile their automations:
+
+1. **List their current scheduled tasks** (Cowork: `list_scheduled_tasks`; Codex: their automations list).
+2. **Compare to the current expected set** (prompts in `scheduled-tasks-guide.md`): **Weekly Preview**, **Plan My Day**, the monthly **Retrospective backstop**, and — optional, post-course — **Daily Practice**.
+3. **For each, show what you'd do and confirm before acting:**
+   - **Missing** → offer to create it from the current prompt template.
+   - **Outdated** → if they have an old **"monthly context check-in"** task (from before the Retrospective existed), offer to **update it in place** (`update_scheduled_task`) to the Retrospective backstop prompt — don't create a duplicate.
+   - **Current** → leave it, and say so.
+4. **Daily Practice is opt-in and post-course:** mention it's available and offer to add it at a time they pick — don't push it.
+5. **Never create duplicates, and never delete a task without an explicit yes.** If two tasks do the same thing, offer to consolidate.
+
+Close by listing what changed and what's now scheduled. This is the reliable "get current after an update" path — a ~30-second reconcile, not a re-onboard.
 
 ---
 

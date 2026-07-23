@@ -14,7 +14,9 @@ Each prompt should: read the relevant context (calendar, task source, weekly-rev
 
 ---
 
-## The three default automations
+## The default automations
+
+Three are set up at onboarding (Weekly Preview, Plan My Day, the monthly Retrospective backstop); Daily Practice is an optional post-course add-on. This is also the **expected set** to reconcile against when an already-onboarded user updates the plugin and asks to review their rituals — see "Reconcile scheduled rituals" in the onboarding SKILL.
 
 ### 1. Weekly Preview
 The timing is a real decision — walk the **timing table** interactively and let the user choose (don't just pick):
