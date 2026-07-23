@@ -21,6 +21,7 @@ One plugin, `managergpt`, containing:
 - **`retrospective`** — the self-improvement loop: reviews your history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs monthly.
 - **`capture`** — save what just worked as a reusable template, or turn a working process into an installable skill.
 - **`practice`** — a ~2-minute daily rep that keeps the course skills alive (post-course retention).
+- **`start-practice`** — turn on your post-course Daily Practice (a 2-minute daily rep) in one command.
 - **`protect`** — an optional security review of your setup.
 
 Each is invocable as `/managergpt:<skill>` (e.g. `/managergpt:onboarding`, `/managergpt:weekly-preview`, `/managergpt:protect`) — or just by asking.
@@ -64,6 +65,7 @@ managergpt-marketplace/
             ├── retrospective/
             ├── capture/
             ├── practice/
+            ├── start-practice/
             └── protect/
 ```
 

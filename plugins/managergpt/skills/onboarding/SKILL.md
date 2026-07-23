@@ -266,6 +266,8 @@ Then set up the recurring rituals **by default — don't ask whether, only when.
 
 Also mention the **post-course retention ritual**: **"After the course, `/managergpt:practice` gives you a 2-minute daily rep to keep these skills alive — daily for a couple of weeks, then weekly. We can turn it on at the end."** (Set it up when the course wraps, at a reliable time they pick.)
 
+And point to the post-course habit: **"When the course wraps, turn on your Daily Practice with `/managergpt:start-practice` — a 2-minute daily rep to keep these skills alive."**
+
 Then mention the optional add-on: **"There's also `/managergpt:protect` — a security review of your setup, anytime you want it."**
 
 Finally, point to the TEMPLATES/ folder: **"Your TEMPLATES/ folder fills itself over time. After any session that produces something worth repeating, say `/managergpt:capture` — it strips the content, keeps the structure, and saves it there. Same command to turn a working process into an installable skill."**

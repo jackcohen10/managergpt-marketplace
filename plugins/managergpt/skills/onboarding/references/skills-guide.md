@@ -24,6 +24,7 @@ The entire Operating System is one plugin (`managergpt`), so all of these came w
 | **Retrospective (Tune Your OS)** | The self-improvement loop — reviews the user's history, surfaces patterns, and proposes confirmation-gated tweaks to `working-style.md`. Runs as the monthly check-in. |
 | **Capture** | Saves what just worked — strips a deliverable to a reusable template in TEMPLATES/, or reconstructs the steps as an installable skill via skill-creator. Say `/managergpt:capture` after any session that produced something worth repeating. |
 | **Daily Practice** | A ~2-minute rep that keeps the course skills alive — adaptive to what's live, grounded in a real moment. Post-course retention (daily, then weekly). |
+| **Start Practice** | The one command to turn on the post-course Daily Practice ritual. Say `/managergpt:start-practice` or "turn on my daily practice." Sets up only Daily Practice — nothing else. |
 
 These are the skills that embody the ManagerGPT frameworks. The planning and interpersonal ones read `working-style.md` and check the Familiar flag.
 

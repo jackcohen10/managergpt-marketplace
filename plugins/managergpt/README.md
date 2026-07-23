@@ -23,6 +23,7 @@ Start with `/managergpt:onboarding` to set up your workspace, connect your tools
 | `/managergpt:retrospective` | Tune your OS — review your history, spot patterns, update working-style.md. Runs monthly. |
 | `/managergpt:capture` | Save what just worked — a reusable template, or a new installable skill. |
 | `/managergpt:practice` | A ~2-minute daily rep to keep the skills alive (post-course retention). |
+| `/managergpt:start-practice` | Turn on your post-course Daily Practice (a 2-minute daily rep) in one command. |
 | `/managergpt:protect` | Optional security review of your setup. |
 
 ## How it fits together
